@@ -1,13 +1,13 @@
 #! /usr/bin/python
 
-from os import read
+import os
 import pandas as pd
 import numpy as np
 from sklearn.feature_extraction.text import CountVectorizer
 
 def read_file(file_path):
     with open(file_path, 'r') as f:
-        lines = f.readlines()
+        lines = f.read().splitlines()
     return lines
 
 
@@ -18,9 +18,13 @@ def main():
     # reading the file
     # file1 = './additional_files/jEdit4.3/CorpusMethods-jEdit4.3-AfterSplitStopStem.txt'
     # qfile = './additional_files/jEdit4.3/CorpusQueries-jEdit4.3-AfterSplitStopStem.txt'
+    # lfile = './additional_files/jEdit4.3/jEdit4.3ListOfFeatureIDs.txt'
+    sets_path = './additional_files/jEdit4.3/jEdit4.3GoldSets/'
+    map_file = './additional_files/jEdit4.3/CorpusMethods-jEdit4.3.mapping'
     
     file1 = './sample_file.txt'
-    qfile = 'query.txt'
+    qfile = './query.txt'
+    lfile = './list_features.txt'
 
     docs = read_file(file1)
     # generate term document matrix
@@ -60,12 +64,41 @@ def main():
 
     # cosine similarity
     sim_df = w_tf_idf_df.apply(sim, args=(qv_df, ), axis=1)
+    # print(sim_df)
+
+    # list of features
+    lf_df = pd.DataFrame(read_file(lfile), columns=['feature_id'])
+
+    gsmid_map = pd.DataFrame(read_file(map_file), columns=['method_name'])
+    
+
+    for i, fid in enumerate(lf_df['feature_id'].values):
+        gset_file = "GoldSet{}.txt".format(fid)
+        
+        ranked_list = sim_df[i].sort_values(0, ascending=False).reset_index()
+        
+        if fid in lf_df.values:
+            temp_rank_list = []
+            for gs_mid in read_file(os.path.join(sets_path, gset_file)):
+                matches = gsmid_map[gsmid_map['method_name']==gs_mid].index
+
+                gs_mid_p = matches[0] if len(matches)>0 else -1
+                
+                vsm_all_rank = ranked_list[ranked_list['index']==gs_mid_p].index if gs_mid_p != -1 else "-1"
+                if len(vsm_all_rank) < 1:
+                    vsm_all_rank = "-1"
+                
+                temp_rank_list.append(vsm_all_rank)
+                
+                print(str(fid) + "| " + str(gs_mid_p) + "| " + str(gs_mid) + "| " + str(vsm_all_rank))
+            print(max(temp_rank_list))
+
 
     # ranked list
-    ranked_list = sim_df.sort_values(0, ascending=False)
-    ranked_list.index += 1
-    ranked_list.columns = ['Similarity']
-    print(ranked_list)
+    # ranked_list = sim_df.sort_values(0, ascending=False)
+    # ranked_list.index += 1
+    # ranked_list.columns = ['Similarity']
+    # print(ranked_list)
 
 
 if __name__ == "__main__":
