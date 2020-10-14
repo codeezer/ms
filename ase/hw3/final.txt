@@ -1,0 +1,1048 @@
+950961| 685| org.gjt.sp.jedit.buffer.BufferAdapter.preContentInserted(JEditBuffer,int,int,int,int)| 467
+950961| 705| org.gjt.sp.jedit.buffer.BufferChangeListener.Adapter.preContentInserted(JEditBuffer,int,int,int,int)| 487
+950961| 2965| org.gjt.sp.jedit.buffer.JEditBuffer.fireFoldLevelChanged(int,int)| 985
+950961| 2966| org.gjt.sp.jedit.buffer.JEditBuffer.fireContentInserted(int,int,int,int)| 969
+950961| 2967| org.gjt.sp.jedit.buffer.JEditBuffer.fireContentRemoved(int,int,int,int)| 990
+950961| 2968| org.gjt.sp.jedit.buffer.JEditBuffer.firePreContentInserted(int,int,int,int)| 977
+950961| 2969| org.gjt.sp.jedit.buffer.JEditBuffer.firePreContentRemoved(int,int,int,int)| 3629
+950961| 2974| org.gjt.sp.jedit.buffer.JEditBuffer.fireTransactionComplete()| 123
+950961| 2975| org.gjt.sp.jedit.buffer.JEditBuffer.fireFoldHandlerChanged()| 3459
+950961| 2976| org.gjt.sp.jedit.buffer.JEditBuffer.fireBufferLoaded()| 2593
+950961| 2979| org.gjt.sp.jedit.buffer.JEditBuffer.loadText(Segment,IntegerArray)| 47
+950961| 2985| org.gjt.sp.jedit.buffer.JEditBuffer.contentInserted(int,int,IntegerArray)| 4301
+950961| 716| org.gjt.sp.jedit.textarea.BufferHandler.contentInserted(JEditBuffer,int,int,int,int)| 114
+950961| 717| org.gjt.sp.jedit.textarea.BufferHandler.preContentInserted(JEditBuffer,int,int,int,int)| 113
+950961| 718| org.gjt.sp.jedit.textarea.BufferHandler.preContentRemoved(JEditBuffer,int,int,int,int)| 147
+950961| 723| org.gjt.sp.jedit.textarea.BufferHandler.getReadyToBreakFold(int)| 4529
+950961| 719| org.gjt.sp.jedit.textarea.BufferHandler.contentRemoved(JEditBuffer,int,int,int,int)| 245
+950961| 4501| org.gjt.sp.jedit.textarea.RangeMap.RangeMap(RangeMap)| 1929
+950961| 4507| org.gjt.sp.jedit.textarea.RangeMap.put(int,int,int[])| 1026
+950961| 4514| org.gjt.sp.jedit.textarea.RangeMap.dump()| 608
+[467, 487, 985, 969, 990, 977, 3629, 123, 3459, 2593, 47, 4301, 114, 113, 147, 4529, 245, 1929, 1026, 608]
+47
+981012| 904| org.gjt.sp.jedit.syntax.Chunk.init(Segment,TabExpander,float,FontRenderContext)| 20
+[20]
+20
+1193683| 717| org.gjt.sp.jedit.textarea.BufferHandler.preContentInserted(JEditBuffer,int,int,int,int)| 280
+1193683| 718| org.gjt.sp.jedit.textarea.BufferHandler.preContentRemoved(JEditBuffer,int,int,int,int)| 135
+1193683| 723| org.gjt.sp.jedit.textarea.BufferHandler.getReadyToBreakFold(int)| 4382
+[280, 135, 4382]
+135
+1292706| 2043| org.gjt.sp.jedit.GUIUtilities.loadGeometry(Window,String)| 1235
+1292706| 2049| org.gjt.sp.jedit.GUIUtilities.saveGeometry(Window,String)| 513
+[1235, 513]
+513
+1382388| 3511| org.gjt.sp.jedit.Mode.Mode(String)| 3645
+1382388| 3520| org.gjt.sp.jedit.Mode.setProperties(Map)| 683
+1382388| 3526| org.gjt.sp.jedit.Mode.getIgnoreWhitespace()| 561
+1382388| 3529| org.gjt.sp.jedit.Mode.initIndentRules()| 536
+1382388| 2887| org.gjt.sp.jedit.buffer.JEditBuffer.getPriorNonEmptyLine(int)| 892
+1382388| 2911| org.gjt.sp.jedit.buffer.JEditBuffer.isElectricKey(char)| 1769
+1382388| 2415| org.gjt.sp.jedit.indent.IndentAction.NoIncrease.calculateIndent(JEditBuffer,int,int,int)| 5116
+1382388| 2416| org.gjt.sp.jedit.indent.IndentAction.NoIncrease.keepChecking()| 408
+1382388| 6072| org.gjt.sp.jedit.indent.WhitespaceRule.apply(JEditBuffer,int,int,int,List<IndentAction>)| 3051
+[3645, 683, 561, 536, 892, 1769, 5116, 408, 3051]
+408
+1500938| 4767| org.gjt.sp.jedit.search.SearchDialog.showSearchDialog(View,String,int)| 3
+1500938| 4768| org.gjt.sp.jedit.search.SearchDialog.setSearchString(String,int)| 46
+[3, 46]
+3
+1520769| 204| org.gjt.sp.jedit.Autosave.actionPerformed(ActionEvent)| 35
+1520769| 620| org.gjt.sp.jedit.Buffer.removeAutosaveFile()| 2036
+1520769| 4688| org.gjt.sp.jedit.options.SaveBackupOptionPane._init()| 9
+1520769| 4689| org.gjt.sp.jedit.options.SaveBackupOptionPane._save()| 5941
+[35, 2036, 9, 5941]
+9
+1520774| 3506| org.gjt.sp.jedit.MiscUtilities.getPathStart(String)| 943
+[943]
+943
+1533473| 1555| org.gjt.sp.jedit.EditPane.saveCaretInfo()| 190
+1533473| 1556| org.gjt.sp.jedit.EditPane.loadCaretInfo()| 692
+[190, 692]
+190
+1536064| 2054| org.gjt.sp.jedit.GUIUtilities.requestFocus(Window,Component)| 1246
+[1246]
+1246
+1538051| 2776| org.gjt.sp.jedit.jEdit.showMemoryDialog(View)| 282
+1538051| 5012| org.gjt.sp.jedit.gui.StatusBar.propertiesChanged()| 4278
+1538051| 5015| org.gjt.sp.jedit.gui.StatusBar.statusUpdate(WorkThreadPool,int)| 4280
+1538051| 5021| org.gjt.sp.jedit.gui.StatusBar.updateBufferStatus()| 4246
+1538051| -1| org.gjt.sp.jedit.gui.StatusBar.MemoryStatus.getToolTipText()| inf
+1538051| -1| org.gjt.sp.jedit.gui.StatusBar.MemoryStatus.paintComponent(Graphics)| inf
+[282, 4278, 4280, 4246, inf, inf]
+282
+1538702| 2042| org.gjt.sp.jedit.GUIUtilities.loadGeometry(Window,Container,String)| 834
+1538702| 2043| org.gjt.sp.jedit.GUIUtilities.loadGeometry(Window,String)| 2618
+1538702| 2049| org.gjt.sp.jedit.GUIUtilities.saveGeometry(Window,String)| 1007
+1538702| 2050| org.gjt.sp.jedit.GUIUtilities.saveGeometry(Window,Container,String)| 769
+1538702| -1| org.gjt.sp.jedit.GUIUtilities.addSizeSaver(Window,String)| inf
+1538702| -1| org.gjt.sp.jedit.GUIUtilities.addSizeSaver(Window,Container,String)| inf
+1538702| -1| org.gjt.sp.jedit.GUIUtilities.SizeSaver.SizeSaver(Window,String)| inf
+1538702| -1| org.gjt.sp.jedit.GUIUtilities.SizeSaver.SizeSaver(Window,Container,String)| inf
+1538702| 2077| org.gjt.sp.jedit.GUIUtilities.SizeSaver.windowStateChanged(WindowEvent)| 1516
+1538702| 2080| org.gjt.sp.jedit.GUIUtilities.SizeSaver.componentMoved(ComponentEvent)| 5873
+1538702| -1| org.gjt.sp.jedit.PluginJAR.load(boolean)| inf
+1538702| 4266| org.gjt.sp.jedit.PluginJAR.load(String,boolean)| 257
+1538702| 4268| org.gjt.sp.jedit.PluginJAR.findPlugin(String)| 6101
+1538702| 4269| org.gjt.sp.jedit.PluginJAR.containsClass(String)| 207
+1538702| -1| org.gjt.sp.jedit.PluginJAR.jarCompare(String,String)| inf
+1538702| -1| org.gjt.sp.jedit.PluginJAR.loadDependencies(String)| inf
+1538702| 4278| org.gjt.sp.jedit.PluginJAR.checkDependencies()| 304
+1538702| -1| org.gjt.sp.jedit.PluginJAR.transitiveClosure(Set<String>,Set<String>)| inf
+1538702| 4281| org.gjt.sp.jedit.PluginJAR.transitiveClosure(String[],List<String>)| 128
+1538702| 4282| org.gjt.sp.jedit.PluginJAR.getDependentPlugins()| 4
+1538702| 4285| org.gjt.sp.jedit.PluginJAR.activatePluginIfNecessary()| 5
+1538702| 4293| org.gjt.sp.jedit.PluginJAR.init()| 171
+1538702| 6027| org.gjt.sp.jedit.View.View(Buffer,ViewConfig)| 2180
+1538702| 1694| org.gjt.sp.jedit.gui.ErrorListDialog.ActionHandler.actionPerformed(ActionEvent)| 3199
+1538702| -1| org.gjt.sp.jedit.gui.FloatingWindowContainer.register(DockableWindowManager.Entry)| inf
+1538702| 2707| org.gjt.sp.jedit.jEdit.getPlugin(String,boolean)| 16
+1538702| 2711| org.gjt.sp.jedit.jEdit.addPluginJAR(String)| 41
+1538702| 3328| org.gjt.sp.jedit.pluginmgr.ManagePanel.ManagePanel(PluginManager)| 178
+1538702| -1| org.gjt.sp.jedit.pluginmgr.ManagePanel.PluginTableModel.toggleCurrentRow()| inf
+1538702| 3344| org.gjt.sp.jedit.pluginmgr.ManagePanel.PluginTableModel.setValueAt(Object,int,int)| 5276
+1538702| 3348| org.gjt.sp.jedit.pluginmgr.ManagePanel.PluginTableModel.unloadPluginJARWithDialog(PluginJAR)| 43
+1538702| 3349| org.gjt.sp.jedit.pluginmgr.ManagePanel.PluginTableModel.unloadPluginJAR(PluginJAR)| 5271
+1538702| 3368| org.gjt.sp.jedit.pluginmgr.ManagePanel.HelpButton.valueChanged(ListSelectionEvent)| 5310
+1538702| -1| org.gjt.sp.jedit.pluginmgr.ManagePanel.KeyHandler.keyTyped(KeyEvent)| inf
+1538702| -1| org.gjt.sp.jedit.pluginmgr.ManagePanel.KeyHandler.keyPressed(KeyEvent)| inf
+1538702| -1| org.gjt.sp.jedit.pluginmgr.ManagePanel.KeyHandler.keyReleased(KeyEvent)| inf
+1538702| 4352| org.gjt.sp.jedit.pluginmgr.PluginManager.showPluginManager(Frame)| 6119
+1538702| 4356| org.gjt.sp.jedit.pluginmgr.PluginManager.PluginManager(Frame)| 92
+1538702| -1| org.gjt.sp.jedit.pluginmgr.PluginManager.PluginManager()| inf
+1538702| 4357| org.gjt.sp.jedit.pluginmgr.PluginManager.init()| 87
+1538702| 4679| org.gjt.sp.jedit.pluginmgr.Roster.Remove.unloadPluginJAR(PluginJAR)| 5661
+[834, 2618, 1007, 769, inf, inf, inf, inf, 1516, 5873, inf, 257, 6101, 207, inf, inf, 304, inf, 128, 4, 5, 171, 2180, 3199, inf, 16, 41, 178, inf, 5276, 43, 5271, 5310, inf, inf, inf, 6119, 92, inf, 87, 5661]
+4
+1538743| 5590| org.gjt.sp.jedit.options.ToolBarEditDialog.ToolBarEditDialog(Component,DefaultComboBoxModel,ToolBarOptionPane.Button)| 5030
+1538743| 5595| org.gjt.sp.jedit.options.ToolBarEditDialog.updateList()| 1485
+[5030, 1485]
+1485
+1541009| 2324| org.gjt.sp.jedit.search.HyperSearchRequest.doHyperSearch(Buffer,int,int,DefaultMutableTreeNode)| 130
+1541009| 4248| org.gjt.sp.jedit.search.PatternSearchMatcher.nextMatch(CharSequence,boolean,boolean,boolean,boolean)| 1325
+1541009| -1| org.gjt.sp.jedit.search.PatternSearchMatcher.isMatchingEOL()| inf
+1541009| 4730| org.gjt.sp.jedit.search.SearchAndReplace.find(View)| 111
+1541009| 4733| org.gjt.sp.jedit.search.SearchAndReplace.replace(View)| 19
+1541009| 4744| org.gjt.sp.jedit.search.SearchAndReplace._replace(View,JEditBuffer,SearchMatcher,int,int,boolean)| 209
+1541009| -1| org.gjt.sp.jedit.search.SearchAndReplace._replace(View,Buffer,SearchMatcher,int,int,boolean)| inf
+1541009| -1| org.gjt.sp.jedit.search.SearchAndReplace.replaceOne(View,Buffer,SearchMatcher.Match,int,String,boolean)| inf
+1541009| -1| org.gjt.sp.jedit.search.SearchMatcher.isMatchingEOL()| inf
+[130, 1325, inf, 111, 19, 209, inf, inf, inf]
+19
+1541372| 2130| org.gjt.sp.jedit.textarea.Gutter.MouseHandler.mousePressed(MouseEvent)| 277
+1541372| -1| org.gjt.sp.jedit.textarea.JEditTextArea.getSelectedText(Selection)| inf
+1541372| -1| org.gjt.sp.jedit.textarea.JEditTextArea.collapseFold()| inf
+1541372| -1| org.gjt.sp.jedit.textarea.JEditTextArea.collapseFold(int)| inf
+[277, inf, inf, inf]
+277
+1542026| 2825| org.gjt.sp.jedit.jEdit.MyFocusManager.postProcessKeyEvent(KeyEvent)| 1605
+[1605]
+1605
+1546200| 4525| org.gjt.sp.jedit.menu.RecentFilesProvider.update(JMenu)| 4295
+[4295]
+4295
+1548902| -1| org.gjt.sp.jedit.TextUtilities.join(Collection,String)| inf
+1548902| 5500| org.gjt.sp.jedit.TextUtilities.findWordStart(String,int,String,boolean,boolean)| 4431
+1548902| 5506| org.gjt.sp.jedit.TextUtilities.findWordEnd(String,int,String,boolean,boolean)| 4433
+1548902| 5509| org.gjt.sp.jedit.TextUtilities.getCharType(char,String)| 3454
+1548902| 5510| org.gjt.sp.jedit.TextUtilities.spacesToTabs(String,int)| 3962
+1548902| 5511| org.gjt.sp.jedit.TextUtilities.tabsToSpaces(String,int)| 682
+1548902| 5512| org.gjt.sp.jedit.TextUtilities.format(String,int,int)| 1108
+1548902| 5517| org.gjt.sp.jedit.TextUtilities.formatParagraph(String,int,int,StringBuilder)| 2487
+1548902| 3022| org.gjt.sp.jedit.textarea.JEditTextArea.formatParagraph()| 3051
+[inf, 4431, 4433, 3454, 3962, 682, 1108, 2487, 3051]
+682
+1549282| 605| org.gjt.sp.jedit.Buffer.insertFile(View,String)| 261
+1549282| 609| org.gjt.sp.jedit.Buffer.save(View,String,boolean)| 76
+1549282| 638| org.gjt.sp.jedit.Buffer.getDefaultProperty(String)| 2038
+1549282| 681| org.gjt.sp.jedit.Buffer.finishSaving(View,String,String,String,boolean,boolean)| 1078
+[261, 76, 2038, 1078]
+76
+1560006| 4767| org.gjt.sp.jedit.search.SearchDialog.showSearchDialog(View,String,int)| 6
+[6]
+6
+1560584| 5354| org.gjt.sp.jedit.textarea.TextArea.addExplicitFold(int,int,int,int)| 621
+[621]
+621
+1565447| 2302| org.gjt.sp.jedit.search.HyperSearchFileNode.goTo(EditPane)| 480
+1565447| 2305| org.gjt.sp.jedit.search.HyperSearchFileNode.getCount()| 156
+1565447| 2306| org.gjt.sp.jedit.search.HyperSearchFileNode.setCount(int)| 309
+1565447| 2320| org.gjt.sp.jedit.search.HyperSearchRequest.HyperSearchRequest(View,SearchMatcher,HyperSearchResults,Selection[])| 46
+1565447| 2321| org.gjt.sp.jedit.search.HyperSearchRequest.run()| 48
+1565447| 2323| org.gjt.sp.jedit.search.HyperSearchRequest.doHyperSearch(Buffer,int,int)| 176
+1565447| 2388| org.gjt.sp.jedit.search.HyperSearchResults.ResultCellRenderer.getTreeCellRendererComponent(JTree,Object,boolean,boolean,boolean,int,boolean)| 76
+1565447| 2389| org.gjt.sp.jedit.search.HyperSearchResults.ResultCellRenderer.CountNodes.processNode(DefaultMutableTreeNode)| 834
+[480, 156, 309, 46, 48, 176, 76, 834]
+46
+1569735| 6129| org.gjt.sp.jedit.syntax.XModeHandler.endElement(String,String,String)| 185
+[185]
+185
+1570554| 5775| org.gjt.sp.jedit.browser.VFSBrowser.setDirectory(String)| 1128
+1570554| 5804| org.gjt.sp.jedit.browser.VFSBrowser.ActionHandler.actionPerformed(ActionEvent)| 342
+1570554| 5919| org.gjt.sp.jedit.browser.VFSFileChooserDialog.ok()| 4566
+[1128, 342, 4566]
+342
+1571629| 5755| org.gjt.sp.jedit.browser.VFSBrowser.VFSBrowser(View,String,int,boolean,String)| 4984
+1571629| 5802| org.gjt.sp.jedit.browser.VFSBrowser.updateFilterEnabled()| 746
+1571629| 5804| org.gjt.sp.jedit.browser.VFSBrowser.ActionHandler.actionPerformed(ActionEvent)| 33
+[4984, 746, 33]
+33
+1571752| 5260| org.gjt.sp.jedit.textarea.TextArea.userInput(char)| 1992
+1571752| 5354| org.gjt.sp.jedit.textarea.TextArea.addExplicitFold(int,int,int,int)| 117
+[1992, 117]
+117
+1574587| -1| org.gjt.sp.jedit.buffer.JEditBuffer.getUndoManager()| inf
+1574587| 2876| org.gjt.sp.jedit.buffer.JEditBuffer.setDirty(boolean)| 1494
+1574587| 792| org.gjt.sp.jedit.bufferio.BufferSaveRequest.run()| 841
+1574587| 1527| org.gjt.sp.jedit.options.EditingOptionPane._init()| 0
+1574587| 1528| org.gjt.sp.jedit.options.EditingOptionPane._save()| 1304
+1574587| 1964| org.gjt.sp.jedit.options.GeneralOptionPane._init()| 541
+1574587| 1965| org.gjt.sp.jedit.options.GeneralOptionPane._save()| 430
+1574587| -1| org.gjt.sp.jedit.buffer.UndoManager.bufferSaved()| inf
+1574587| 5648| org.gjt.sp.jedit.buffer.UndoManager.resetClearDirty()| 2
+[inf, 1494, 841, 0, 1304, 541, 430, inf, 2]
+0
+1575505| 5304| org.gjt.sp.jedit.textarea.TextArea.joinLines()| 3989
+1575505| -1| org.gjt.sp.jedit.textarea.TextArea.joinLines(Selection)| inf
+1575505| 5356| org.gjt.sp.jedit.textarea.TextArea.joinLineAt(int)| 3954
+[3989, inf, 3954]
+3954
+1576535| 1556| org.gjt.sp.jedit.EditPane.loadCaretInfo()| 881
+[881]
+881
+1578785| 4256| org.gjt.sp.jedit.PerspectiveManager.savePerspective(boolean)| 844
+1578785| 4260| org.gjt.sp.jedit.PerspectiveManager.PerspectiveHandler.attribute(String,String)| 1814
+1578785| 4262| org.gjt.sp.jedit.PerspectiveManager.PerspectiveHandler.endElement(String,String,String)| 4878
+1578785| 614| org.gjt.sp.jedit.Buffer.getAutoReload()| 121
+1578785| 615| org.gjt.sp.jedit.Buffer.setAutoReload(boolean)| 58
+1578785| 616| org.gjt.sp.jedit.Buffer.getAutoReloadDialog()| 70
+1578785| 617| org.gjt.sp.jedit.Buffer.setAutoReloadDialog(boolean)| 1088
+1578785| -1| org.gjt.sp.jedit.Buffer.Buffer(String,boolean,boolean,Hashtable)| inf
+1578785| 770| org.gjt.sp.jedit.gui.BufferOptions.BufferOptions(View,Buffer)| 1418
+1578785| 771| org.gjt.sp.jedit.gui.BufferOptions.ok()| 3708
+1578785| 773| org.gjt.sp.jedit.gui.BufferOptions.ActionHandler.actionPerformed(ActionEvent)| 1153
+1578785| 2759| org.gjt.sp.jedit.jEdit.checkBufferStatus(View)| 0
+1578785| 766| org.gjt.sp.jedit.options.BufferOptionPane.BufferOptionPane()| 61
+1578785| 767| org.gjt.sp.jedit.options.BufferOptionPane._init()| 75
+1578785| 768| org.gjt.sp.jedit.options.BufferOptionPane._save()| 3707
+1578785| 769| org.gjt.sp.jedit.options.BufferOptionPane.ActionHandler.actionPerformed(ActionEvent)| 433
+1578785| 1964| org.gjt.sp.jedit.options.GeneralOptionPane._init()| 93
+1578785| 1965| org.gjt.sp.jedit.options.GeneralOptionPane._save()| 113
+[844, 1814, 4878, 121, 58, 70, 1088, inf, 1418, 3708, 1153, 0, 61, 75, 3707, 433, 93, 113]
+0
+1584436| -1| org.gjt.sp.jedit.textarea.Anchor.preContentRemoved(int,int)| inf
+[inf]
+inf
+1589360| 5404| org.gjt.sp.jedit.textarea.TextAreaMouseHandler.doSingleClick(MouseEvent)| 24
+1589360| 5409| org.gjt.sp.jedit.textarea.TextAreaMouseHandler.doSingleDrag(MouseEvent)| 152
+[24, 152]
+24
+1593359| 2431| org.gjt.sp.jedit.gui.InputHandler.processKeyEvent(KeyEvent,int,boolean)| 226
+[226]
+226
+1593375| 1870| org.gjt.sp.jedit.gui.FilteredListModel.FilteredListModel(E)| 1665
+1593375| 1871| org.gjt.sp.jedit.gui.FilteredListModel.setList(JList)| 5673
+1593375| 1872| org.gjt.sp.jedit.gui.FilteredListModel.getDelegated()| 5672
+1593375| 1873| org.gjt.sp.jedit.gui.FilteredListModel.setDelegated(E)| 38
+1593375| 1874| org.gjt.sp.jedit.gui.FilteredListModel.resetFilter()| 114
+1593375| 1875| org.gjt.sp.jedit.gui.FilteredListModel.setFilter(String)| 15
+1593375| 1876| org.gjt.sp.jedit.gui.FilteredListModel.prepareFilter(String)| 5790
+1593375| 1877| org.gjt.sp.jedit.gui.FilteredListModel.saveSelection()| 5811
+1593375| 1878| org.gjt.sp.jedit.gui.FilteredListModel.restoreSelection(Set<Integer>)| 1074
+1593375| 1879| org.gjt.sp.jedit.gui.FilteredListModel.getTrueRow(int)| 5809
+1593375| 1880| org.gjt.sp.jedit.gui.FilteredListModel.getInternal2ExternalRow(int)| 5808
+1593375| 1881| org.gjt.sp.jedit.gui.FilteredListModel.getElementAt(int)| 139
+1593375| 1882| org.gjt.sp.jedit.gui.FilteredListModel.getSize()| 48
+1593375| 1883| org.gjt.sp.jedit.gui.FilteredListModel.contentsChanged(ListDataEvent)| 74
+1593375| 1884| org.gjt.sp.jedit.gui.FilteredListModel.intervalAdded(ListDataEvent)| 63
+1593375| 1885| org.gjt.sp.jedit.gui.FilteredListModel.intervalRemoved(ListDataEvent)| 354
+1593375| 3255| org.gjt.sp.jedit.gui.LogViewer.LogViewer()| 5434
+1593375| 3261| org.gjt.sp.jedit.gui.LogViewer.setFilter()| 3295
+[1665, 5673, 5672, 38, 114, 15, 5790, 5811, 1074, 5809, 5808, 139, 48, 74, 63, 354, 5434, 3295]
+15
+1593389| 5779| org.gjt.sp.jedit.browser.VFSBrowser.delete(VFSFile[])| 1802
+1593389| 1847| org.gjt.sp.jedit.io.FileVFS.recursiveDelete(File)| 1247
+1593389| 1861| org.gjt.sp.jedit.io.FileVFS._delete(Object,String,Component)| 454
+[1802, 1247, 454]
+454
+1593464| 1803| org.gjt.sp.jedit.browser.FileCellRenderer.getIconForFile(VFSFile,boolean,boolean)| 15
+1593464| 1804| org.gjt.sp.jedit.browser.FileCellRenderer.propertiesChanged()| 213
+1593464| 1841| org.gjt.sp.jedit.io.FileVFS.getParentOfPath(String)| 569
+1593464| 1852| org.gjt.sp.jedit.io.FileVFS.LocalFile.getIcon(boolean,boolean)| 4134
+1593464| 5882| org.gjt.sp.jedit.io.VFSFile.getIcon(boolean)| 7
+1593464| 5883| org.gjt.sp.jedit.io.VFSFile.getIcon(boolean,boolean)| 9
+1593464| 5884| org.gjt.sp.jedit.io.VFSFile.getDefaultIcon(boolean,boolean)| 3
+1593464| 5885| org.gjt.sp.jedit.io.VFSFile.getDefaultIcon(boolean)| 22
+1593464| 319| org.gjt.sp.jedit.options.BrowserOptionPane._init()| 168
+1593464| 320| org.gjt.sp.jedit.options.BrowserOptionPane._save()| 1925
+[15, 213, 569, 4134, 7, 9, 3, 22, 168, 1925]
+3
+1593523| 2314| org.gjt.sp.jedit.search.HyperSearchOperationNode.restoreFlatNodes(JTree,DefaultMutableTreeNode)| 469
+[469]
+469
+1593526| 2355| org.gjt.sp.jedit.search.HyperSearchResults.removeSelectedNode()| 27
+[27]
+27
+1593543| 642| org.gjt.sp.jedit.Buffer.setMode()| 533
+1593543| 728| org.gjt.sp.jedit.BufferHistory.setEntry(String,int,Selection[],String,String)| 1676
+1593543| 732| org.gjt.sp.jedit.BufferHistory.save()| 3579
+1593543| 725| org.gjt.sp.jedit.BufferHistory.Entry.Entry(String,int,String,String,String)| 3581
+1593543| 740| org.gjt.sp.jedit.BufferHistory.RecentHandler.endElement(String,String,String)| 3575
+1593543| 1555| org.gjt.sp.jedit.EditPane.saveCaretInfo()| 1249
+1593543| 2743| org.gjt.sp.jedit.jEdit._closeBuffer(View,Buffer)| 480
+1593543| 2745| org.gjt.sp.jedit.jEdit.closeAllBuffers(View,boolean)| 251
+1593543| -1| org.gjt.sp.jedit.jEdit.composeBufferPropsFromHistory(Hashtable,String)| inf
+[533, 1676, 3579, 3581, 3575, 1249, 480, 251, inf]
+251
+1593576| 2903| org.gjt.sp.jedit.buffer.JEditBuffer.indentLine(int,boolean)| 3
+1593576| 2906| org.gjt.sp.jedit.buffer.JEditBuffer.getIdealIndentForLine(int,int,int)| 260
+1593576| 2905| org.gjt.sp.jedit.buffer.JEditBuffer.getIdealIndentForLine(int)| 12
+1593576| 4997| org.gjt.sp.util.StandardUtilities.truncateWhiteSpace(int,int,String)| 64
+[3, 260, 12, 64]
+3
+1593735| 3709| org.gjt.sp.jedit.gui.OptionsDialog.valueChanged(TreeSelectionEvent)| 22
+1593735| 3710| org.gjt.sp.jedit.gui.OptionsDialog.init(String,String)| 68
+1593735| -1| org.gjt.sp.jedit.gui.OptionsDialog.selectPane(OptionGroup,String,List)| inf
+1593735| 3716| org.gjt.sp.jedit.gui.OptionsDialog.PaneNameRenderer.getTreeCellRendererComponent(JTree,Object,boolean,boolean,boolean,int,boolean)| 5330
+[22, 68, inf, 5330]
+22
+1594234| 3699| org.gjt.sp.jedit.OptionGroup.insertionSort(String,Object)| 1504
+1594234| 4751| org.gjt.sp.jedit.search.SearchBar.SearchBar(View,boolean)| 4520
+1594234| 4757| org.gjt.sp.jedit.search.SearchBar.incrementalSearch(int,boolean)| 75
+1594234| 4758| org.gjt.sp.jedit.search.SearchBar.timerIncrementalSearch(int,boolean)| 307
+[1504, 4520, 75, 307]
+75
+1594910| 637| org.gjt.sp.jedit.Buffer.propertiesChanged()| 823
+1594910| 3527| org.gjt.sp.jedit.Mode.getIndentRules()| 330
+1594910| 3528| org.gjt.sp.jedit.Mode.isElectricKey(char)| 102
+1594910| 3529| org.gjt.sp.jedit.Mode.initIndentRules()| 73
+1594910| 3530| org.gjt.sp.jedit.Mode.createRegexpIndentRule(String)| 87
+1594910| 3531| org.gjt.sp.jedit.Mode.createBracketIndentRules(String,List<IndentRule>)| 526
+1594910| 2866| org.gjt.sp.jedit.buffer.JEditBuffer.JEditBuffer(Map)| 2616
+1594910| 2867| org.gjt.sp.jedit.buffer.JEditBuffer.JEditBuffer()| 5427
+1594910| 2905| org.gjt.sp.jedit.buffer.JEditBuffer.getIdealIndentForLine(int)| 19
+1594910| 2911| org.gjt.sp.jedit.buffer.JEditBuffer.isElectricKey(char)| 44
+1594910| 2912| org.gjt.sp.jedit.buffer.JEditBuffer.isElectricKey(char,int)| 1998
+1594910| 2987| org.gjt.sp.jedit.buffer.JEditBuffer.getIndentRules(int)| 85
+1594910| 3020| org.gjt.sp.jedit.textarea.JEditTextArea.userInput(char)| 2423
+[823, 330, 102, 73, 87, 526, 2616, 5427, 19, 44, 1998, 85, 2423]
+19
+1599024| 4639| org.gjt.sp.jedit.menu.ReloadWithEncodingProvider.updateEveryTime()| 5
+1599024| 4640| org.gjt.sp.jedit.menu.ReloadWithEncodingProvider.update(JMenu)| 0
+1599024| 4641| org.gjt.sp.jedit.menu.ReloadWithEncodingProvider.actionPerformed(ActionEvent)| 1059
+[5, 0, 1059]
+0
+1599709| 2987| org.gjt.sp.jedit.buffer.JEditBuffer.getIndentRules(int)| 407
+[407]
+407
+1600401| 5548| org.gjt.sp.jedit.syntax.TokenMarker.handleRule(ParserRule,boolean)| 2600
+[2600]
+2600
+1601718| 4724| org.gjt.sp.jedit.search.SearchAndReplace.getSearchMatcher()| 18
+1601718| 4729| org.gjt.sp.jedit.search.SearchAndReplace.hyperSearch(View,boolean)| 300
+1601718| 4730| org.gjt.sp.jedit.search.SearchAndReplace.find(View)| 581
+1601718| 4733| org.gjt.sp.jedit.search.SearchAndReplace.replace(View)| 60
+1601718| 4735| org.gjt.sp.jedit.search.SearchAndReplace.replaceAll(View)| 107
+1601718| 4742| org.gjt.sp.jedit.search.SearchAndReplace.record(View,String,boolean,boolean)| 470
+[18, 300, 581, 60, 107, 470]
+18
+1608486| 1576| org.gjt.sp.jedit.EditPane.initPainter(TextAreaPainter)| 2448
+1608486| 5418| org.gjt.sp.jedit.options.TextAreaOptionPane._init()| 314
+1608486| 5419| org.gjt.sp.jedit.options.TextAreaOptionPane._save()| 384
+1608486| 5440| org.gjt.sp.jedit.textarea.TextAreaPainter.isThickCaretEnabled()| 5
+1608486| 5441| org.gjt.sp.jedit.textarea.TextAreaPainter.setThickCaretEnabled(boolean)| 4982
+1608486| 5481| org.gjt.sp.jedit.textarea.TextAreaPainter.PaintCaret.paintValidLine(Graphics2D,int,int,int,int,int)| 200
+[2448, 314, 384, 5, 4982, 200]
+5
+1608948| 5825| org.gjt.sp.jedit.browser.VFSBrowser.HistoryComboBoxEditor.processFocusEvent(FocusEvent)| 650
+[650]
+650
+1611766| 2987| org.gjt.sp.jedit.buffer.JEditBuffer.getIndentRules(int)| 129
+[129]
+129
+1617509| 1975| org.gjt.sp.jedit.io.GlobVFSFileFilter.accept(VFSFile)| 1208
+1617509| 1979| org.gjt.sp.jedit.io.GlobVFSFileFilter.setGlob(String)| 1204
+[1208, 1204]
+1204
+1620694| 722| org.gjt.sp.jedit.textarea.BufferHandler.delayUpdate(int,int)| 4274
+1620694| 5109| org.gjt.sp.jedit.textarea.TextArea.TextArea(IPropertyManager,InputHandlerProvider)| 5726
+1620694| 5128| org.gjt.sp.jedit.textarea.TextArea.setBuffer(JEditBuffer)| 363
+1620694| 5317| org.gjt.sp.jedit.textarea.TextArea.propertiesChanged()| 1272
+1620694| 5325| org.gjt.sp.jedit.textarea.TextArea.foldStructureChanged()| 84
+1620694| 5333| org.gjt.sp.jedit.textarea.TextArea.finishCaretUpdate(int,int,boolean)| 5788
+1620694| 5420| org.gjt.sp.jedit.textarea.TextAreaPainter.setBounds(int,int,int,int)| 98
+1620694| 5468| org.gjt.sp.jedit.textarea.TextAreaPainter.paint(Graphics)| 3090
+[4274, 5726, 363, 1272, 84, 5788, 98, 3090]
+84
+1628053| 1547| org.gjt.sp.jedit.EditPane.setBuffer(Buffer,boolean)| 127
+1628053| 853| org.gjt.sp.jedit.gui.BufferSwitcher.updateBufferList()| 114
+[127, 114]
+114
+1630805| 4137| org.gjt.sp.jedit.syntax.ParserRule.createSequenceRule(int,String,ParserRuleSet,byte)| 1172
+1630805| 4139| org.gjt.sp.jedit.syntax.ParserRule.createRegexpSequenceRule(String,int,String,ParserRuleSet,byte,boolean)| 1140
+1630805| 4140| org.gjt.sp.jedit.syntax.ParserRule.createRegexpSequenceRule(int,char[],String,ParserRuleSet,byte,boolean)| 429
+1630805| 4150| org.gjt.sp.jedit.syntax.ParserRule.createEscapeRule(String)| 1005
+1630805| 4151| org.gjt.sp.jedit.syntax.ParserRule.toString()| 353
+1630805| 5546| org.gjt.sp.jedit.syntax.TokenMarker.markTokens(LineContext,TokenHandler,Segment)| 1266
+1630805| 5547| org.gjt.sp.jedit.syntax.TokenMarker.checkDelegateEnd(ParserRule)| 790
+[1172, 1140, 429, 1005, 353, 1266, 790]
+353
+1638642| 2068| org.gjt.sp.jedit.GUIUtilities.initContinuousLayout(JSplitPane)| 2016
+1638642| -1| org.gjt.sp.jedit.GUIUtilities.SizeSaver.SizeSaver(Frame,String)| inf
+1638642| 5995| org.gjt.sp.jedit.View.split(int)| 4
+1638642| 6037| org.gjt.sp.jedit.View.restoreSplitConfig(Buffer,String)| 32
+1638642| 6038| org.gjt.sp.jedit.View.propertiesChanged()| 1052
+1638642| 321| org.gjt.sp.jedit.browser.BrowserView.BrowserView(VFSBrowser)| 3501
+1638642| 332| org.gjt.sp.jedit.browser.BrowserView.propertiesChanged()| 1595
+1638642| 341| org.gjt.sp.jedit.browser.BrowserView.TableMouseHandler.mouseClicked(MouseEvent)| 3482
+1638642| 3710| org.gjt.sp.jedit.gui.OptionsDialog.init(String,String)| 144
+1638642| 4620| org.gjt.sp.jedit.gui.RegisterViewer.RegisterViewer(View,String)| 4520
+1638642| 4622| org.gjt.sp.jedit.gui.RegisterViewer.handleMessage(EBMessage)| 1333
+1638642| 4627| org.gjt.sp.jedit.gui.RegisterViewer.refreshList()| 4522
+1638642| 2212| org.gjt.sp.jedit.help.HelpViewer.HelpViewer(String)| 1755
+1638642| 2217| org.gjt.sp.jedit.help.HelpViewer.handleMessage(EBMessage)| 3038
+1638642| 189| org.gjt.sp.jedit.options.AppearanceOptionPane._init()| 187
+1638642| 190| org.gjt.sp.jedit.options.AppearanceOptionPane._save()| 3706
+1638642| 2456| org.gjt.sp.jedit.pluginmgr.InstallPanel.InstallPanel(PluginManager,boolean)| 2315
+1638642| 2460| org.gjt.sp.jedit.pluginmgr.InstallPanel.formatSize(int)| 5658
+[2016, inf, 4, 32, 1052, 3501, 1595, 3482, 144, 4520, 1333, 4522, 1755, 3038, 187, 3706, 2315, 5658]
+4
+1641997| 1964| org.gjt.sp.jedit.options.GeneralOptionPane._init()| 483
+[483]
+483
+1642574| 1575| org.gjt.sp.jedit.EditPane.propertiesChanged()| 1996
+1642574| 6065| org.gjt.sp.jedit.options.ViewOptionPane._init()| 207
+1642574| 6066| org.gjt.sp.jedit.options.ViewOptionPane._save()| 940
+[1996, 207, 940]
+207
+1645528| 4261| org.gjt.sp.jedit.PerspectiveManager.PerspectiveHandler.skipRemote(String)| 427
+1645528| 4262| org.gjt.sp.jedit.PerspectiveManager.PerspectiveHandler.endElement(String,String,String)| 5848
+1645528| 1964| org.gjt.sp.jedit.options.GeneralOptionPane._init()| 455
+1645528| 1965| org.gjt.sp.jedit.options.GeneralOptionPane._save()| 594
+[427, 5848, 455, 594]
+427
+1646058| 2354| org.gjt.sp.jedit.search.HyperSearchResults.goToSelectedNode(int)| 20
+1646058| 2355| org.gjt.sp.jedit.search.HyperSearchResults.removeSelectedNode()| 21
+1646058| 2365| org.gjt.sp.jedit.search.HyperSearchResults.KeyHandler.keyPressed(KeyEvent)| 85
+1646058| 2366| org.gjt.sp.jedit.search.HyperSearchResults.MouseHandler.mousePressed(MouseEvent)| 11
+1646058| 2369| org.gjt.sp.jedit.search.HyperSearchResults.RemoveTreeNodeAction.actionPerformed(ActionEvent)| 5
+[20, 21, 85, 11, 5]
+5
+1649033| 2031| org.gjt.sp.jedit.GUIUtilities.showVFSFileDialog(View,String,int,boolean)| 91
+1649033| 2032| org.gjt.sp.jedit.GUIUtilities.showVFSFileDialog(Dialog,View,String,int,boolean)| 121
+1649033| 5914| org.gjt.sp.jedit.browser.VFSFileChooserDialog.VFSFileChooserDialog(View,String,int,boolean,boolean)| 109
+1649033| 5915| org.gjt.sp.jedit.browser.VFSFileChooserDialog.VFSFileChooserDialog(Dialog,View,String,int,boolean,boolean)| 238
+1649033| 5922| org.gjt.sp.jedit.browser.VFSFileChooserDialog.getDefaultTitle()| 171
+1649033| 5923| org.gjt.sp.jedit.browser.VFSFileChooserDialog._init(View,String,int,boolean,boolean)| 1634
+1649033| 4788| org.gjt.sp.jedit.search.SearchDialog.MultiFileActionHandler.actionPerformed(ActionEvent)| 42
+[91, 121, 109, 238, 171, 1634, 42]
+42
+1654543| 5703| org.gjt.sp.jedit.gui.VariableGridLayout.getLayoutSize(Container,LayoutSize)| 4835
+[4835]
+4835
+1658252| 4137| org.gjt.sp.jedit.syntax.ParserRule.createSequenceRule(int,String,ParserRuleSet,byte)| 840
+1658252| 4139| org.gjt.sp.jedit.syntax.ParserRule.createRegexpSequenceRule(String,int,String,ParserRuleSet,byte,boolean)| 617
+1658252| 4140| org.gjt.sp.jedit.syntax.ParserRule.createRegexpSequenceRule(int,char[],String,ParserRuleSet,byte,boolean)| 184
+1658252| -1| org.gjt.sp.jedit.syntax.ParserRule.createSpanRule(int,String,int,String,ParserRuleSet,byte,byte,boolean,boolean,boolean)| inf
+1658252| -1| org.gjt.sp.jedit.syntax.ParserRule.createRegexpSpanRule(char,int,String,int,String,ParserRuleSet,byte,byte,boolean,boolean,boolean,boolean)| inf
+1658252| -1| org.gjt.sp.jedit.syntax.ParserRule.createRegexpSpanRule(String,int,String,int,String,ParserRuleSet,byte,byte,boolean,boolean,boolean,boolean)| inf
+1658252| -1| org.gjt.sp.jedit.syntax.ParserRule.createRegexpSpanRule(int,char[],String,int,String,ParserRuleSet,byte,byte,boolean,boolean,boolean,boolean)| inf
+1658252| 4144| org.gjt.sp.jedit.syntax.ParserRule.createEOLSpanRule(int,String,ParserRuleSet,byte,byte)| 559
+1658252| 4145| org.gjt.sp.jedit.syntax.ParserRule.createRegexpEOLSpanRule(char,int,String,ParserRuleSet,byte,byte,boolean)| 467
+1658252| 4146| org.gjt.sp.jedit.syntax.ParserRule.createRegexpEOLSpanRule(String,int,String,ParserRuleSet,byte,byte,boolean)| 481
+1658252| 4147| org.gjt.sp.jedit.syntax.ParserRule.createRegexpEOLSpanRule(int,char[],String,ParserRuleSet,byte,byte,boolean)| 421
+1658252| 4148| org.gjt.sp.jedit.syntax.ParserRule.createMarkFollowingRule(int,String,byte,byte)| 417
+1658252| 4149| org.gjt.sp.jedit.syntax.ParserRule.createMarkPreviousRule(int,String,byte,byte)| 986
+1658252| 4150| org.gjt.sp.jedit.syntax.ParserRule.createEscapeRule(String)| 590
+1658252| 4151| org.gjt.sp.jedit.syntax.ParserRule.toString()| 340
+1658252| -1| org.gjt.sp.jedit.syntax.ParserRule.ParserRule(int,String,int,char[],Pattern,int,char[],ParserRuleSet,byte,byte)| inf
+1658252| -1| org.gjt.sp.jedit.syntax.ParserRule.ParserRule(char[],int,int,char[],Pattern,int,char[],ParserRuleSet,byte,byte)| inf
+1658252| 5547| org.gjt.sp.jedit.syntax.TokenMarker.checkDelegateEnd(ParserRule)| 402
+1658252| -1| org.gjt.sp.jedit.syntax.TokenMarker.handleRule(ParserRule,boolean,boolean)| inf
+1658252| 5553| org.gjt.sp.jedit.syntax.TokenMarker.matchToken(ParserRule,ParserRule,LineContext)| 1088
+1658252| 6129| org.gjt.sp.jedit.syntax.XModeHandler.endElement(String,String,String)| 705
+1658252| 6139| org.gjt.sp.jedit.syntax.XModeHandler.TagDecl.TagDecl(String,Attributes)| 945
+[840, 617, 184, inf, inf, inf, inf, 559, 467, 481, 421, 417, 986, 590, 340, inf, inf, 402, inf, 1088, 705, 945]
+184
+1659666| 5494| org.gjt.sp.jedit.TextUtilities.getComplementaryBracket(char,boolean[])| 405
+1659666| 5546| org.gjt.sp.jedit.syntax.TokenMarker.markTokens(LineContext,TokenHandler,Segment)| 999
+1659666| 5552| org.gjt.sp.jedit.syntax.TokenMarker.substitute(Matcher,char[])| 3783
+[405, 999, 3783]
+405
+1663617| 2731| org.gjt.sp.jedit.jEdit.openFile(View,String,String,boolean,Hashtable)| 73
+[73]
+73
+1664900| 2399| org.gjt.sp.jedit.indent.IndentAction.Collapse.Collapse()| 11
+1664900| 3667| org.gjt.sp.jedit.indent.OpenBracketIndentRule.apply(JEditBuffer,int,int,int,List<IndentAction>)| 259
+1664900| 3669| org.gjt.sp.jedit.indent.OpenBracketIndentRule.handleCollapse(List<IndentAction>,boolean)| 2861
+1664900| 4580| org.gjt.sp.jedit.indent.RegexpIndentRule.apply(JEditBuffer,int,int,int,List<IndentAction>)| 381
+[11, 259, 2861, 381]
+11
+1668893| 3462| org.gjt.sp.jedit.MiscUtilities.autodetect(InputStream,Buffer)| 2085
+1668893| 750| org.gjt.sp.jedit.bufferio.BufferIORequest.write(Buffer,OutputStream)| 43
+[2085, 43]
+43
+1671312| 2324| org.gjt.sp.jedit.search.HyperSearchRequest.doHyperSearch(Buffer,int,int,DefaultMutableTreeNode)| 910
+1671312| 4248| org.gjt.sp.jedit.search.PatternSearchMatcher.nextMatch(CharSequence,boolean,boolean,boolean,boolean)| 1577
+1671312| 4724| org.gjt.sp.jedit.search.SearchAndReplace.getSearchMatcher()| 464
+1671312| 4730| org.gjt.sp.jedit.search.SearchAndReplace.find(View)| 687
+1671312| 4733| org.gjt.sp.jedit.search.SearchAndReplace.replace(View)| 247
+1671312| 4744| org.gjt.sp.jedit.search.SearchAndReplace._replace(View,JEditBuffer,SearchMatcher,int,int,boolean)| 501
+[910, 1577, 464, 687, 247, 501]
+247
+1676041| 5500| org.gjt.sp.jedit.TextUtilities.findWordStart(String,int,String,boolean,boolean)| 3
+1676041| 5501| org.gjt.sp.jedit.TextUtilities.findWordStart(String,int,String,boolean,boolean,boolean)| 29
+1676041| 5506| org.gjt.sp.jedit.TextUtilities.findWordEnd(String,int,String,boolean,boolean)| 4
+1676041| 5507| org.gjt.sp.jedit.TextUtilities.findWordEnd(String,int,String,boolean,boolean,boolean)| 32
+1676041| 1527| org.gjt.sp.jedit.options.EditingOptionPane._init()| 1074
+1676041| 1528| org.gjt.sp.jedit.options.EditingOptionPane._save()| 88
+1676041| 1529| org.gjt.sp.jedit.options.EditingOptionPane.saveMode()| 81
+1676041| 1530| org.gjt.sp.jedit.options.EditingOptionPane.selectMode()| 151
+1676041| 1531| org.gjt.sp.jedit.options.EditingOptionPane.updateEnabled()| 1070
+1676041| 1535| org.gjt.sp.jedit.options.EditingOptionPane.ModeProperties.load()| 258
+1676041| 1536| org.gjt.sp.jedit.options.EditingOptionPane.ModeProperties.save()| 3553
+1676041| 5185| org.gjt.sp.jedit.textarea.TextArea.selectWord()| 810
+1676041| 5238| org.gjt.sp.jedit.textarea.TextArea.goToNextWord(boolean,boolean)| 57
+1676041| 5245| org.gjt.sp.jedit.textarea.TextArea.goToPrevWord(boolean,boolean)| 777
+1676041| 5266| org.gjt.sp.jedit.textarea.TextArea.backspaceWord(boolean)| 624
+1676041| 5273| org.gjt.sp.jedit.textarea.TextArea.deleteWord(boolean)| 314
+1676041| 5405| org.gjt.sp.jedit.textarea.TextAreaMouseHandler.doDoubleClick()| 307
+[3, 29, 4, 32, 1074, 88, 81, 151, 1070, 258, 3553, 810, 57, 777, 624, 314, 307]
+3
+1687264| 2355| org.gjt.sp.jedit.search.HyperSearchResults.removeSelectedNode()| 40
+[40]
+40
+1694133| 345| org.gjt.sp.jedit.browser.BrowserView.ParentDirectoryList.processKeyEvent(KeyEvent)| 3459
+1694133| 5773| org.gjt.sp.jedit.browser.VFSBrowser.previousDirectory()| 403
+1694133| 5774| org.gjt.sp.jedit.browser.VFSBrowser.nextDirectory()| 294
+1694133| 5775| org.gjt.sp.jedit.browser.VFSBrowser.setDirectory(String)| 472
+1694133| 5841| org.gjt.sp.jedit.browser.VFSDirectoryEntryTable.processKeyEvent(KeyEvent)| 4950
+1694133| 5934| org.gjt.sp.jedit.browser.VFSFileNameField.processKeyEvent(KeyEvent)| 657
+[3459, 403, 294, 472, 4950, 657]
+294
+1708876| 3446| org.gjt.sp.jedit.MiscUtilities.getFileExtension(String)| 303
+[303]
+303
+1708881| 5853| org.gjt.sp.jedit.browser.VFSDirectoryEntryTable.MouseHandler.mousePressed(MouseEvent)| 2125
+[2125]
+2125
+1723506| 3040| org.gjt.sp.jedit.textarea.JEditTextArea.showPopupMenu()| 4969
+[4969]
+4969
+1724940| 716| org.gjt.sp.jedit.textarea.BufferHandler.contentInserted(JEditBuffer,int,int,int,int)| 492
+1724940| 719| org.gjt.sp.jedit.textarea.BufferHandler.contentRemoved(JEditBuffer,int,int,int,int)| 1024
+[492, 1024]
+492
+1730845| 1573| org.gjt.sp.jedit.EditPane.EditPane(View,Buffer,BufferSet.Scope)| 1664
+1730845| 1575| org.gjt.sp.jedit.EditPane.propertiesChanged()| 895
+1730845| 2135| org.gjt.sp.jedit.options.GutterOptionPane._init()| 8
+1730845| 2136| org.gjt.sp.jedit.options.GutterOptionPane._save()| 47
+1730845| 2139| org.gjt.sp.jedit.options.GutterOptionPane.isGutterEnabled()| 383
+1730845| 2082| org.gjt.sp.jedit.textarea.Gutter.Gutter(TextArea)| 384
+1730845| 2091| org.gjt.sp.jedit.textarea.Gutter.setBorder(Border)| 659
+1730845| 2098| org.gjt.sp.jedit.textarea.Gutter.setFont(Font)| 541
+1730845| 2099| org.gjt.sp.jedit.textarea.Gutter.setGutterEnabled(boolean)| 345
+1730845| 2110| org.gjt.sp.jedit.textarea.Gutter.getPreferredSize()| 2376
+1730845| 2125| org.gjt.sp.jedit.textarea.Gutter.setSelectionPopupHandler(GutterPopupHandler)| 2383
+1730845| 2127| org.gjt.sp.jedit.textarea.Gutter.paintLine(Graphics2D,int,int)| 2418
+1730845| 2130| org.gjt.sp.jedit.textarea.Gutter.MouseHandler.mousePressed(MouseEvent)| 150
+1730845| 2131| org.gjt.sp.jedit.textarea.Gutter.MouseHandler.mouseDragged(MouseEvent)| 48
+1730845| 2132| org.gjt.sp.jedit.textarea.Gutter.MouseHandler.getFoldEndOffset(int)| 513
+1730845| 2133| org.gjt.sp.jedit.textarea.Gutter.MouseHandler.mouseReleased(MouseEvent)| 25
+[1664, 895, 8, 47, 383, 384, 659, 541, 345, 2376, 2383, 2418, 150, 48, 513, 25]
+8
+1739675| 6072| org.gjt.sp.jedit.indent.WhitespaceRule.apply(JEditBuffer,int,int,int,List<IndentAction>)| 4749
+[4749]
+4749
+1744674| 2301| org.gjt.sp.jedit.search.HyperSearchFileNode.getBuffer(View)| 71
+1744674| 2302| org.gjt.sp.jedit.search.HyperSearchFileNode.goTo(EditPane)| 2804
+1744674| 2325| org.gjt.sp.jedit.search.HyperSearchResult.getBuffer(View)| 637
+1744674| 2327| org.gjt.sp.jedit.search.HyperSearchResult.goTo(EditPane)| 5168
+1744674| 2351| org.gjt.sp.jedit.search.HyperSearchResults.searchDone(DefaultMutableTreeNode)| 738
+1744674| 2354| org.gjt.sp.jedit.search.HyperSearchResults.goToSelectedNode(int)| 702
+[71, 2804, 637, 5168, 738, 702]
+71
+1747300| 1575| org.gjt.sp.jedit.EditPane.propertiesChanged()| 411
+1747300| 2135| org.gjt.sp.jedit.options.GutterOptionPane._init()| 130
+1747300| 2136| org.gjt.sp.jedit.options.GutterOptionPane._save()| 92
+1747300| 2138| org.gjt.sp.jedit.options.GutterOptionPane.addFoldStyleChooser()| 107
+1747300| -1| org.gjt.sp.jedit.textarea.CircleFoldPainter.paintFoldEnd(Gutter,Graphics2D,int,int,int,int,JEditBuffer)| inf
+1747300| -1| org.gjt.sp.jedit.textarea.CircleFoldPainter.paintFoldMiddle(Gutter,Graphics2D,int,int,int,int,JEditBuffer)| inf
+1747300| -1| org.gjt.sp.jedit.textarea.CircleFoldPainter.paintFoldStart(Gutter,Graphics2D,int,int,boolean,int,int,JEditBuffer)| inf
+1747300| -1| org.gjt.sp.jedit.textarea.Gutter.getFoldPainterName()| inf
+1747300| -1| org.gjt.sp.jedit.textarea.Gutter.setFoldPainter(String)| inf
+1747300| 2082| org.gjt.sp.jedit.textarea.Gutter.Gutter(TextArea)| 668
+1747300| 2127| org.gjt.sp.jedit.textarea.Gutter.paintLine(Graphics2D,int,int)| 2755
+1747300| -1| org.gjt.sp.jedit.textarea.SquareFoldPainter.paintFoldEnd(Gutter,Graphics2D,int,int,int,int,JEditBuffer)| inf
+1747300| -1| org.gjt.sp.jedit.textarea.SquareFoldPainter.paintFoldStart(Gutter,Graphics2D,int,int,boolean,int,int,JEditBuffer)| inf
+1747300| -1| org.gjt.sp.jedit.textarea.SquareFoldPainter.paintFoldMiddle(Gutter,Graphics2D,int,int,int,int,JEditBuffer)| inf
+1747300| 5598| org.gjt.sp.jedit.textarea.TriangleFoldPainter.paintFoldStart(Gutter,Graphics2D,int,int,boolean,int,int,JEditBuffer)| 113
+1747300| 5599| org.gjt.sp.jedit.textarea.TriangleFoldPainter.paintFoldEnd(Gutter,Graphics2D,int,int,int,int,JEditBuffer)| 109
+1747300| 5600| org.gjt.sp.jedit.textarea.TriangleFoldPainter.paintFoldMiddle(Gutter,Graphics2D,int,int,int,int,JEditBuffer)| 2654
+[411, 130, 92, 107, inf, inf, inf, inf, inf, 668, 2755, inf, inf, inf, 113, 109, 2654]
+92
+1748509| 2033| org.gjt.sp.jedit.GUIUtilities.showVFSFileDialog(Frame,View,String,int,boolean)| 2205
+1748509| 5916| org.gjt.sp.jedit.browser.VFSFileChooserDialog.VFSFileChooserDialog(Frame,View,String,int,boolean,boolean)| 1885
+1748509| 2456| org.gjt.sp.jedit.pluginmgr.InstallPanel.InstallPanel(PluginManager,boolean)| 15
+1748509| 2457| org.gjt.sp.jedit.pluginmgr.InstallPanel.loadPluginSet(String)| 43
+1748509| 2476| org.gjt.sp.jedit.pluginmgr.InstallPanel.PluginTableModel.restoreSelection(Set<String>,Set<String>)| 92
+1748509| 2488| org.gjt.sp.jedit.pluginmgr.InstallPanel.StringMapHandler.StringMapHandler()| 663
+1748509| 2489| org.gjt.sp.jedit.pluginmgr.InstallPanel.StringMapHandler.startElement(String,String,String,Attributes)| 58
+1748509| 2490| org.gjt.sp.jedit.pluginmgr.InstallPanel.ChoosePluginSet.ChoosePluginSet()| 889
+1748509| 2491| org.gjt.sp.jedit.pluginmgr.InstallPanel.ChoosePluginSet.updateUI()| 16
+1748509| 2492| org.gjt.sp.jedit.pluginmgr.InstallPanel.ChoosePluginSet.actionPerformed(ActionEvent)| 52
+1748509| 2493| org.gjt.sp.jedit.pluginmgr.InstallPanel.ClearPluginSet.ClearPluginSet()| 269
+1748509| 2494| org.gjt.sp.jedit.pluginmgr.InstallPanel.ClearPluginSet.actionPerformed(ActionEvent)| 2
+1748509| 3328| org.gjt.sp.jedit.pluginmgr.ManagePanel.ManagePanel(PluginManager)| 443
+1748509| 3358| org.gjt.sp.jedit.pluginmgr.ManagePanel.SaveButton.SaveButton()| 499
+1748509| -1| org.gjt.sp.jedit.pluginmgr.ManagePanel.SaveButton.saveState(String,StringList)| inf
+1748509| 3360| org.gjt.sp.jedit.pluginmgr.ManagePanel.SaveButton.actionPerformed(ActionEvent)| 244
+[2205, 1885, 15, 43, 92, 663, 58, 889, 16, 52, 269, 2, 443, 499, inf, 244]
+2
+1749475| 4914| org.gjt.sp.jedit.options.ShortcutsOptionPane._init()| 264
+1749475| 4916| org.gjt.sp.jedit.options.ShortcutsOptionPane.setFilter()| 21
+1749475| 4917| org.gjt.sp.jedit.options.ShortcutsOptionPane.initModels()| 310
+1749475| 4922| org.gjt.sp.jedit.options.ShortcutsOptionPane.TableMouseHandler.mouseClicked(MouseEvent)| 12
+1749475| -1| org.gjt.sp.jedit.options.ShortcutsOptionPane.ShortcutsModel.ShortcutsModel(String,Vector<GrabKeyDialog.KeyBinding[]>)| inf
+1749475| -1| org.gjt.sp.jedit.options.ShortcutsOptionPane.ShortcutsModel.resetFilter()| inf
+1749475| -1| org.gjt.sp.jedit.options.ShortcutsOptionPane.ShortcutsModel.setFilter(String)| inf
+1749475| 4925| org.gjt.sp.jedit.options.ShortcutsOptionPane.ShortcutsModel.getBindings()| 4021
+1749475| 4928| org.gjt.sp.jedit.options.ShortcutsOptionPane.ShortcutsModel.getRowCount()| 516
+1749475| 4929| org.gjt.sp.jedit.options.ShortcutsOptionPane.ShortcutsModel.getValueAt(int,int)| 132
+1749475| 4930| org.gjt.sp.jedit.options.ShortcutsOptionPane.ShortcutsModel.setValueAt(Object,int,int)| 18
+1749475| -1| org.gjt.sp.jedit.options.ShortcutsOptionPane.ShortcutsModel.getFilteredBindingAt(int,int)| inf
+[264, 21, 310, 12, inf, inf, inf, 4021, 516, 132, 18, inf]
+12
+1768638| 608| org.gjt.sp.jedit.Buffer.save(View,String)| 250
+1768638| 609| org.gjt.sp.jedit.Buffer.save(View,String,boolean)| 31
+1768638| 610| org.gjt.sp.jedit.Buffer.save(View,String,boolean,boolean)| 172
+1768638| 1622| org.gjt.sp.jedit.EditServer.handleClient(boolean,boolean,boolean,String,String[])| 6243
+1768638| 6005| org.gjt.sp.jedit.View.setBuffer(Buffer)| 1
+1768638| 6006| org.gjt.sp.jedit.View.setBuffer(Buffer,boolean)| 0
+1768638| 6008| org.gjt.sp.jedit.View.goToBuffer(Buffer)| 32
+1768638| 6054| org.gjt.sp.jedit.View.WindowHandler.windowActivated(WindowEvent)| 2245
+1768638| 1056| org.gjt.sp.jedit.gui.CloseDialog.ActionHandler.actionPerformed(ActionEvent)| 122
+1768638| 2688| org.gjt.sp.jedit.jEdit.getIntegerProperty(String)| 1662
+1768638| 2727| org.gjt.sp.jedit.jEdit.openFiles(View,String,String[])| 118
+1768638| 2731| org.gjt.sp.jedit.jEdit.openFile(View,String,String,boolean,Hashtable)| 78
+1768638| 2747| org.gjt.sp.jedit.jEdit.saveAllBuffers(View,boolean)| 49
+1768638| 2759| org.gjt.sp.jedit.jEdit.checkBufferStatus(View)| 3
+1768638| 2760| org.gjt.sp.jedit.jEdit.checkBufferStatus(View,boolean)| 5770
+1768638| -1| org.gjt.sp.jedit.jEdit.finishStartup(boolean,boolean,String,String[])| inf
+1768638| 1964| org.gjt.sp.jedit.options.GeneralOptionPane._init()| 310
+1768638| 1965| org.gjt.sp.jedit.options.GeneralOptionPane._save()| 244
+1768638| 4732| org.gjt.sp.jedit.search.SearchAndReplace.find(View,Buffer,int,boolean,boolean)| 823
+[250, 31, 172, 6243, 1, 0, 32, 2245, 122, 1662, 118, 78, 49, 3, 5770, inf, 310, 244, 823]
+0
+1781853| 2456| org.gjt.sp.jedit.pluginmgr.InstallPanel.InstallPanel(PluginManager,boolean)| 275
+1781853| 2471| org.gjt.sp.jedit.pluginmgr.InstallPanel.PluginTableModel.sort(int)| 5771
+1781853| 2498| org.gjt.sp.jedit.pluginmgr.InstallPanel.EntryCompare.EntryCompare(int,int)| 230
+1781853| -1| org.gjt.sp.jedit.pluginmgr.InstallPanel.EntryCompare.compare(Object,Object)| inf
+1781853| 2500| org.gjt.sp.jedit.pluginmgr.InstallPanel.HeaderMouseHandler.mouseClicked(MouseEvent)| 906
+1781853| 2506| org.gjt.sp.jedit.pluginmgr.InstallPanel.HeaderRenderer.HeaderRenderer(DefaultTableCellRenderer)| 64
+1781853| 2507| org.gjt.sp.jedit.pluginmgr.InstallPanel.HeaderRenderer.getTableCellRendererComponent(JTable,Object,boolean,boolean,int,int)| 5382
+[275, 5771, 230, inf, 906, 64, 5382]
+64
+1788847| 682| org.gjt.sp.jedit.Buffer.editSyntaxStyle(JEditTextArea)| 1544
+1788847| 5062| org.gjt.sp.jedit.gui.StyleEditor.StyleEditor(JDialog,SyntaxStyle,String)| 11
+1788847| 5063| org.gjt.sp.jedit.gui.StyleEditor.StyleEditor(JFrame,SyntaxStyle,String)| 106
+1788847| 5064| org.gjt.sp.jedit.gui.StyleEditor.initialize(Component,SyntaxStyle,String)| 777
+1788847| 5065| org.gjt.sp.jedit.gui.StyleEditor.actionPerformed(ActionEvent)| 3142
+1788847| 5066| org.gjt.sp.jedit.gui.StyleEditor.ok()| 5494
+1788847| 5067| org.gjt.sp.jedit.gui.StyleEditor.cancel()| 92
+1788847| 5068| org.gjt.sp.jedit.gui.StyleEditor.getStyle()| 72
+1788847| 5074| org.gjt.sp.jedit.options.SyntaxHiliteOptionPane.MouseHandler.mouseClicked(MouseEvent)| 8
+[1544, 11, 106, 777, 3142, 5494, 92, 72, 8]
+8
+1789707| 1632| org.gjt.sp.jedit.io.EncodingServer.hasEncoding(String)| 6
+1789707| 6120| org.gjt.sp.jedit.io.XMLEncodingDetector.getXMLEncoding(String)| 337
+[6, 337]
+6
+1818140| 2265| org.gjt.sp.jedit.gui.HistoryText.showPopupMenu(String,int,int)| 429
+1818140| 3229| org.gjt.sp.jedit.gui.ListModelEditor.open(DefaultListModel)| 59
+1818140| 3230| org.gjt.sp.jedit.gui.ListModelEditor.createTableModel(DefaultListModel)| 40
+1818140| 3231| org.gjt.sp.jedit.gui.ListModelEditor.updatelistModel(DefaultListModel,DefaultTableModel)| 3527
+[429, 59, 40, 3527]
+40
+1825720| 692| org.gjt.sp.jedit.bufferio.BufferAutosaveRequest.run()| 1511
+[1511]
+1511
+1834620| 4748| org.gjt.sp.jedit.search.SearchAndReplace.regexpReplace(SearchMatcher.Match,String)| 345
+[345]
+345
+1854542| 631| org.gjt.sp.jedit.Buffer.setDirty(boolean)| 4553
+1854542| 5755| org.gjt.sp.jedit.browser.VFSBrowser.VFSBrowser(View,String,int,boolean,String)| 1143
+[4553, 1143]
+1143
+1866836| 1125| org.gjt.sp.jedit.gui.CompleteWord.completeWord(View)| 131
+1866836| 1140| org.gjt.sp.jedit.gui.CompleteWord.Words.complete(int)| 355
+[131, 355]
+131
+1869978| 2816| org.gjt.sp.jedit.jEdit.addBufferToList(Buffer)| 86
+[86]
+86
+1883809| 5219| org.gjt.sp.jedit.textarea.TextArea.centerCaret()| 73
+[73]
+73
+1887293| 6040| org.gjt.sp.jedit.View.loadToolBars()| 1282
+1887293| 4751| org.gjt.sp.jedit.search.SearchBar.SearchBar(View,boolean)| 4427
+1887293| 4755| org.gjt.sp.jedit.search.SearchBar.propertiesChanged()| 6
+1887293| 4756| org.gjt.sp.jedit.search.SearchBar.find(boolean)| 39
+1887293| 4759| org.gjt.sp.jedit.search.SearchBar.setCloseButtonVisibility()| 21
+1887293| 4764| org.gjt.sp.jedit.search.SearchBar.KeyHandler.keyPressed(KeyEvent)| 4429
+[1282, 4427, 6, 39, 21, 4429]
+6
+1894235| 6040| org.gjt.sp.jedit.View.loadToolBars()| 1536
+1894235| 4751| org.gjt.sp.jedit.search.SearchBar.SearchBar(View,boolean)| 4498
+1894235| 4755| org.gjt.sp.jedit.search.SearchBar.propertiesChanged()| 6
+1894235| 4756| org.gjt.sp.jedit.search.SearchBar.find(boolean)| 66
+1894235| 4759| org.gjt.sp.jedit.search.SearchBar.setCloseButtonVisibility()| 22
+1894235| 4764| org.gjt.sp.jedit.search.SearchBar.KeyHandler.keyPressed(KeyEvent)| 4501
+[1536, 4498, 6, 66, 22, 4501]
+6
+1906288| 169| org.gjt.sp.jedit.textarea.Anchor.preContentRemoved(int,int,int)| 4885
+[4885]
+4885
+1910061| 5219| org.gjt.sp.jedit.textarea.TextArea.centerCaret()| 28
+1910061| -1| org.gjt.sp.jedit.textarea.TextArea.scrollToCurrent()| inf
+[28, inf]
+28
+1912735| 4837| org.gjt.sp.jedit.gui.statusbar.SelectionLengthWidgetFactory.getWidget(View)| 63
+1912735| 4838| org.gjt.sp.jedit.gui.statusbar.SelectionLengthWidgetFactory.SelectionLengthWidget.SelectionLengthWidget(View)| 386
+1912735| 4839| org.gjt.sp.jedit.gui.statusbar.SelectionLengthWidgetFactory.SelectionLengthWidget.getComponent()| 3831
+1912735| 4840| org.gjt.sp.jedit.gui.statusbar.SelectionLengthWidgetFactory.SelectionLengthWidget.update()| 3853
+1912735| 4841| org.gjt.sp.jedit.gui.statusbar.SelectionLengthWidgetFactory.SelectionLengthWidget.propertiesChanged()| 336
+1912735| 4842| org.gjt.sp.jedit.gui.statusbar.SelectionLengthWidgetFactory.SelectionLengthWidget.handleMessage(EBMessage)| 1064
+1912735| 4843| org.gjt.sp.jedit.gui.statusbar.SelectionLengthWidgetFactory.SelectionLengthWidget.SelectionLength.addNotify()| 1139
+1912735| 4844| org.gjt.sp.jedit.gui.statusbar.SelectionLengthWidgetFactory.SelectionLengthWidget.SelectionLength.removeNotify()| 76
+1912735| 4845| org.gjt.sp.jedit.gui.statusbar.SelectionLengthWidgetFactory.SelectionLengthWidget.SelectionLength.caretUpdate(CaretEvent)| 21
+[63, 386, 3831, 3853, 336, 1064, 1139, 76, 21]
+21
+1913979| 4768| org.gjt.sp.jedit.search.SearchDialog.setSearchString(String,int)| 1482
+[1482]
+1482
+1923613| 4248| org.gjt.sp.jedit.search.PatternSearchMatcher.nextMatch(CharSequence,boolean,boolean,boolean,boolean)| 756
+1923613| 4730| org.gjt.sp.jedit.search.SearchAndReplace.find(View)| 63
+1923613| 4732| org.gjt.sp.jedit.search.SearchAndReplace.find(View,Buffer,int,boolean,boolean)| 179
+1923613| 4756| org.gjt.sp.jedit.search.SearchBar.find(boolean)| 12
+1923613| 4780| org.gjt.sp.jedit.search.SearchDialog.updateEnabled()| 26
+[756, 63, 179, 12, 26]
+12
+1931333| 1145| org.gjt.sp.jedit.gui.CompleteWord.keyTyped(KeyEvent)| 386
+[386]
+386
+1936518| 305| org.gjt.sp.jedit.browser.BrowserCommandsMenu.BrowserCommandsMenu(VFSBrowser,VFSFile[])| 399
+1936518| 5781| org.gjt.sp.jedit.browser.VFSBrowser.rename(String,String)| 72
+1936518| -1| org.gjt.sp.jedit.browser.VFSBrowser.fileProperties()| inf
+1936518| -1| org.gjt.sp.jedit.gui.FilePropertiesDialog.FilePropertiesDialog(View,VFSBrowser)| inf
+1936518| 1821| org.gjt.sp.jedit.gui.FilePropertiesDialog.createAndShowGUI()| 5805
+1936518| 1812| org.gjt.sp.jedit.gui.FilePropertiesDialog.addComponentsToPane()| 187
+1936518| 1813| org.gjt.sp.jedit.gui.FilePropertiesDialog.createNorthPanelAll()| 39
+1936518| 1814| org.gjt.sp.jedit.gui.FilePropertiesDialog.createCenterPanelAll()| 1631
+1936518| 1815| org.gjt.sp.jedit.gui.FilePropertiesDialog.createSouthPanelAll()| 1869
+1936518| 1816| org.gjt.sp.jedit.gui.FilePropertiesDialog.createNorthPanel()| 314
+1936518| 1817| org.gjt.sp.jedit.gui.FilePropertiesDialog.createCenterPanel()| 1632
+1936518| 1818| org.gjt.sp.jedit.gui.FilePropertiesDialog.createSouthPanel()| 403
+1936518| 1819| org.gjt.sp.jedit.gui.FilePropertiesDialog.ok()| 5807
+1936518| 1820| org.gjt.sp.jedit.gui.FilePropertiesDialog.cancel()| 2279
+1936518| 1822| org.gjt.sp.jedit.gui.FilePropertiesDialog.ButtonActionHandler.actionPerformed(ActionEvent)| 1442
+[399, 72, inf, inf, 5805, 187, 39, 1631, 1869, 314, 1632, 403, 5807, 2279, 1442]
+39
+1938174| 1875| org.gjt.sp.jedit.gui.FilteredListModel.setFilter(String)| 6
+[6]
+6
+1942313| 1262| org.gjt.sp.jedit.textarea.DisplayManager.expandFold(int,boolean)| 5
+[5]
+5
+1947676| 2321| org.gjt.sp.jedit.search.HyperSearchRequest.run()| 47
+1947676| 2347| org.gjt.sp.jedit.search.HyperSearchResults.searchStarted()| 92
+1947676| 2349| org.gjt.sp.jedit.search.HyperSearchResults.searchFailed()| 60
+1947676| 2350| org.gjt.sp.jedit.search.HyperSearchResults.searchDone(DefaultMutableTreeNode,DefaultMutableTreeNode)| 16
+[47, 92, 60, 16]
+16
+1961989| 5576| org.gjt.sp.jedit.options.ToolBarOptionPane._init()| 176
+1961989| 5579| org.gjt.sp.jedit.options.ToolBarOptionPane.reloadButtonList(String)| 271
+1961989| 5588| org.gjt.sp.jedit.options.ToolBarOptionPane.ActionHandler.actionPerformed(ActionEvent)| 320
+1961989| 65| org.gjt.sp.jedit.gui.AbstractContextOptionPane._init()| 304
+1961989| 70| org.gjt.sp.jedit.gui.AbstractContextOptionPane.reloadContextList(String)| 161
+1961989| 73| org.gjt.sp.jedit.gui.AbstractContextOptionPane.ActionHandler.actionPerformed(ActionEvent)| 321
+[176, 271, 320, 304, 161, 321]
+161
+1965114| 5834| org.gjt.sp.jedit.browser.VFSDirectoryEntryTable.getSelectedFiles()| 237
+1965114| 5841| org.gjt.sp.jedit.browser.VFSDirectoryEntryTable.processKeyEvent(KeyEvent)| 5225
+[237, 5225]
+237
+1984000| 805| org.gjt.sp.jedit.bufferset.BufferSet.addBufferAt(Buffer,int)| 159
+[159]
+159
+1984974| 6038| org.gjt.sp.jedit.View.propertiesChanged()| 826
+1984974| 5027| org.gjt.sp.jedit.options.StatusBarOptionPane._init()| 72
+1984974| 5028| org.gjt.sp.jedit.options.StatusBarOptionPane._save()| 922
+[826, 72, 922]
+72
+1999448| 717| org.gjt.sp.jedit.textarea.BufferHandler.preContentInserted(JEditBuffer,int,int,int,int)| 60
+1999448| 718| org.gjt.sp.jedit.textarea.BufferHandler.preContentRemoved(JEditBuffer,int,int,int,int)| 629
+1999448| 723| org.gjt.sp.jedit.textarea.BufferHandler.getReadyToBreakFold(int)| 716
+1999448| 5304| org.gjt.sp.jedit.textarea.TextArea.joinLines()| 3622
+1999448| 1262| org.gjt.sp.jedit.textarea.DisplayManager.expandFold(int,boolean)| 3
+[60, 629, 716, 3622, 3]
+3
+2015210| 189| org.gjt.sp.jedit.options.AppearanceOptionPane._init()| 809
+2015210| 4688| org.gjt.sp.jedit.options.SaveBackupOptionPane._init()| 7
+[809, 7]
+7
+2017514| 3560| org.gjt.sp.jedit.textarea.MouseHandler.mouseReleased(MouseEvent)| 5574
+[5574]
+5574
+2060078| 6045| org.gjt.sp.jedit.View.handleEditPaneUpdate(EditPaneUpdate)| 85
+2060078| 6046| org.gjt.sp.jedit.View.closeDuplicateBuffers(EditPaneUpdate)| 4674
+[85, 4674]
+85
+2068307| 1050| org.gjt.sp.jedit.gui.CloseDialog.CloseDialog(View)| 213
+2068307| 2741| org.gjt.sp.jedit.jEdit.closeBuffer(View,Buffer)| 13
+2068307| 623| org.gjt.sp.jedit.Buffer.getPath(Boolean)| 2002
+2068307| 668| org.gjt.sp.jedit.Buffer.toString()| 283
+2068307| 3438| org.gjt.sp.jedit.MiscUtilities.abbreviate(String)| 2340
+2068307| 3508| org.gjt.sp.jedit.MiscUtilities.VarCompressor.VarCompressor()| 3504
+2068307| 3509| org.gjt.sp.jedit.MiscUtilities.VarCompressor.compress(String)| 1063
+2068307| 4688| org.gjt.sp.jedit.options.SaveBackupOptionPane._init()| 183
+2068307| 4689| org.gjt.sp.jedit.options.SaveBackupOptionPane._save()| 1759
+[213, 13, 2002, 283, 2340, 3504, 1063, 183, 1759]
+13
+2069249| 2324| org.gjt.sp.jedit.search.HyperSearchRequest.doHyperSearch(Buffer,int,int,DefaultMutableTreeNode)| 2854
+2069249| 4248| org.gjt.sp.jedit.search.PatternSearchMatcher.nextMatch(CharSequence,boolean,boolean,boolean,boolean)| 801
+2069249| 4730| org.gjt.sp.jedit.search.SearchAndReplace.find(View)| 69
+2069249| 4733| org.gjt.sp.jedit.search.SearchAndReplace.replace(View)| 295
+2069249| 4744| org.gjt.sp.jedit.search.SearchAndReplace._replace(View,JEditBuffer,SearchMatcher,int,int,boolean)| 490
+[2854, 801, 69, 295, 490]
+69
+2077326| 631| org.gjt.sp.jedit.Buffer.setDirty(boolean)| 826
+2077326| 678| org.gjt.sp.jedit.Buffer.calculateHash()| 341
+2077326| 680| org.gjt.sp.jedit.Buffer.finishLoading()| 24
+2077326| 4688| org.gjt.sp.jedit.options.SaveBackupOptionPane._init()| 189
+2077326| 4689| org.gjt.sp.jedit.options.SaveBackupOptionPane._save()| 972
+[826, 341, 24, 189, 972]
+24
+2089713| 631| org.gjt.sp.jedit.Buffer.setDirty(boolean)| 563
+[563]
+563
+2091052| 831| org.gjt.sp.jedit.bufferset.BufferSetManager.handleMessage(EBMessage)| 92
+2091052| 844| org.gjt.sp.jedit.bufferset.BufferSetManager.BufferSetClosed.BufferSetClosed(BufferSet)| 84
+2091052| -1| org.gjt.sp.jedit.bufferset.BufferSetManager.BufferSetClosed.BufferSetClosed(View,BufferSet)| inf
+2091052| -1| org.gjt.sp.jedit.bufferset.BufferSetManager.BufferSetClosed.BufferSetClosed(EditPane,BufferSet)| inf
+2091052| -1| org.gjt.sp.jedit.bufferset.BufferSetManager.BufferSetClosed.init()| inf
+2091052| 845| org.gjt.sp.jedit.bufferset.BufferSetManager.BufferSetClosed.bufferAdded(Buffer,int)| 314
+2091052| 6030| org.gjt.sp.jedit.View.confirmToCloseDirty()| 535
+2091052| 6048| org.gjt.sp.jedit.View.getOpenBuffers()| 90
+2091052| 1050| org.gjt.sp.jedit.gui.CloseDialog.CloseDialog(View)| 308
+2091052| 1051| org.gjt.sp.jedit.gui.CloseDialog.CloseDialog(View,Collection<Buffer>)| 4581
+2091052| 2820| org.gjt.sp.jedit.jEdit.closeView(View,boolean)| 2632
+[92, 84, inf, inf, inf, 314, 535, 90, 308, 4581, 2632]
+84
+2122926| 1700| org.gjt.sp.jedit.gui.statusbar.ErrorsWidgetFactory.ErrorHighlight.ErrorHighlight(View)| 1339
+2122926| 1706| org.gjt.sp.jedit.gui.statusbar.ErrorsWidgetFactory.ErrorHighlight.MyMouseAdapter.MyMouseAdapter(View)| 0
+2122926| 1707| org.gjt.sp.jedit.gui.statusbar.ErrorsWidgetFactory.ErrorHighlight.MyMouseAdapter.mouseClicked(MouseEvent)| 144
+[1339, 0, 144]
+0
+2129419| 1057| org.gjt.sp.jedit.gui.CloseDialog.ListHandler.valueChanged(ListSelectionEvent)| 1801
+[1801]
+1801
+2169354| 4748| org.gjt.sp.jedit.search.SearchAndReplace.regexpReplace(SearchMatcher.Match,String)| 336
+[336]
+336
+2173091| 2324| org.gjt.sp.jedit.search.HyperSearchRequest.doHyperSearch(Buffer,int,int,DefaultMutableTreeNode)| 553
+2173091| 4248| org.gjt.sp.jedit.search.PatternSearchMatcher.nextMatch(CharSequence,boolean,boolean,boolean,boolean)| 1143
+2173091| 4730| org.gjt.sp.jedit.search.SearchAndReplace.find(View)| 515
+2173091| 4733| org.gjt.sp.jedit.search.SearchAndReplace.replace(View)| 769
+2173091| 4744| org.gjt.sp.jedit.search.SearchAndReplace._replace(View,JEditBuffer,SearchMatcher,int,int,boolean)| 942
+[553, 1143, 515, 769, 942]
+515
+2173112| 2324| org.gjt.sp.jedit.search.HyperSearchRequest.doHyperSearch(Buffer,int,int,DefaultMutableTreeNode)| 1063
+[1063]
+1063
+2183929| 1568| org.gjt.sp.jedit.EditPane.bufferAdded(Buffer,int)| 36
+2183929| 1571| org.gjt.sp.jedit.EditPane.bufferSetSorted()| 323
+2183929| -1| org.gjt.sp.jedit.bufferset.BufferSet.BufferSet(Scope)| inf
+2183929| -1| org.gjt.sp.jedit.bufferset.BufferSet.finalize()| inf
+2183929| -1| org.gjt.sp.jedit.bufferset.BufferSet.handleMessage(PropertiesChanged)| inf
+2183929| -1| org.gjt.sp.jedit.bufferset.BufferSet.handleMessage(EBMessage)| inf
+2183929| 805| org.gjt.sp.jedit.bufferset.BufferSet.addBufferAt(Buffer,int)| 433
+2183929| 826| org.gjt.sp.jedit.bufferset.BufferSetAdapter.bufferSetSorted()| 126
+2183929| 831| org.gjt.sp.jedit.bufferset.BufferSetManager.handleMessage(EBMessage)| 105
+[36, 323, inf, inf, inf, inf, 433, 126, 105]
+36
+2199003| 1322| org.gjt.sp.jedit.gui.DockableWindowFactory.getDockableWindowPluginClass(String)| 130
+2199003| 1366| org.gjt.sp.jedit.gui.DockableWindowManager.getDockableWindowPluginName(String)| 315
+2199003| 1455| org.gjt.sp.jedit.options.DockingOptionPane._init()| 2388
+2199003| 1457| org.gjt.sp.jedit.options.DockingOptionPane.createDockingOptionsPanel()| 359
+2199003| 1462| org.gjt.sp.jedit.options.WindowTableModel.WindowTableModel()| 29
+2199003| 1463| org.gjt.sp.jedit.options.WindowTableModel.getDockableSets()| 205
+2199003| 1464| org.gjt.sp.jedit.options.WindowTableModel.showSet(String)| 3723
+[130, 315, 2388, 359, 29, 205, 3723]
+29
+2218621| 3436| org.gjt.sp.jedit.MiscUtilities.canonPath(String)| 2844
+2218621| 3440| org.gjt.sp.jedit.MiscUtilities.isAbsolutePath(String)| 203
+[2844, 203]
+203
+2220025| 5012| org.gjt.sp.jedit.gui.StatusBar.propertiesChanged()| 3651
+2220025| 5020| org.gjt.sp.jedit.gui.StatusBar.updateCaretStatus()| 1778
+2220025| 5027| org.gjt.sp.jedit.options.StatusBarOptionPane._init()| 618
+2220025| 5028| org.gjt.sp.jedit.options.StatusBarOptionPane._save()| 2976
+[3651, 1778, 618, 2976]
+618
+2220033| 5011| org.gjt.sp.jedit.gui.StatusBar.StatusBar(View)| 323
+2220033| 5020| org.gjt.sp.jedit.gui.StatusBar.updateCaretStatus()| 1655
+2220033| 5025| org.gjt.sp.jedit.gui.StatusBar.MouseHandler.mouseClicked(MouseEvent)| 129
+2220033| 5027| org.gjt.sp.jedit.options.StatusBarOptionPane._init()| 514
+2220033| 5028| org.gjt.sp.jedit.options.StatusBarOptionPane._save()| 2852
+[323, 1655, 129, 514, 2852]
+129
+2446121| 2338| org.gjt.sp.jedit.search.HyperSearchResults.HyperSearchResults(View)| 872
+2446121| 2340| org.gjt.sp.jedit.search.HyperSearchResults.addNotify()| 565
+2446121| 2352| org.gjt.sp.jedit.search.HyperSearchResults.updateHighlightStatus()| 488
+2446121| 2359| org.gjt.sp.jedit.search.HyperSearchResults.ActionHandler.actionPerformed(ActionEvent)| 505
+2446121| 2360| org.gjt.sp.jedit.search.HyperSearchResults.HighlightingTree.HighlightingTree(DefaultTreeModel)| 470
+2446121| 2361| org.gjt.sp.jedit.search.HyperSearchResults.HighlightingTree.convertValueToText(Object,boolean,boolean,boolean,int,boolean)| 707
+2446121| -1| org.gjt.sp.jedit.search.HyperSearchResults.HighlightingTree.appendString2html(StringBuffer,String)| inf
+[872, 565, 488, 505, 470, 707, inf]
+470
+2555956| 55| org.gjt.sp.jedit.gui.AboutDialog.AboutPanel.AboutPanel()| 4038
+[4038]
+4038
+2569381| 1129| org.gjt.sp.jedit.gui.CompleteWord.getVisibleBuffers()| 42
+2569381| 1130| org.gjt.sp.jedit.gui.CompleteWord.getCompletions(Buffer,String,int)| 123
+2569381| 5418| org.gjt.sp.jedit.options.TextAreaOptionPane._init()| 2092
+2569381| 5419| org.gjt.sp.jedit.options.TextAreaOptionPane._save()| 527
+[42, 123, 2092, 527]
+42
+2596087| 5154| org.gjt.sp.jedit.textarea.TextArea.scrollTo(int,int,boolean)| 759
+2596087| 5324| org.gjt.sp.jedit.textarea.TextArea.recalculateVisibleLines()| 507
+[759, 507]
+507
+2646484| 3014| org.gjt.sp.jedit.textarea.JEditTextArea.smartEnd(boolean)| 45
+2646484| 5246| org.gjt.sp.jedit.textarea.TextArea.home(boolean)| 8
+2646484| 5247| org.gjt.sp.jedit.textarea.TextArea.end(boolean)| 151
+2646484| 5249| org.gjt.sp.jedit.textarea.TextArea.smartEnd(boolean)| 504
+2646484| 5252| org.gjt.sp.jedit.textarea.TextArea.goToEndOfCode(boolean)| 291
+[45, 8, 151, 504, 291]
+8
+2668434| 6027| org.gjt.sp.jedit.View.View(Buffer,ViewConfig)| 426
+2668434| 6028| org.gjt.sp.jedit.View.updateFullScreenProps()| 90
+2668434| 6029| org.gjt.sp.jedit.View.toggleFullScreen()| 2514
+2668434| 6038| org.gjt.sp.jedit.View.propertiesChanged()| 2061
+2668434| 6065| org.gjt.sp.jedit.options.ViewOptionPane._init()| 262
+2668434| 6066| org.gjt.sp.jedit.options.ViewOptionPane._save()| 2812
+[426, 90, 2514, 2061, 262, 2812]
+90
+2688862| 2319| org.gjt.sp.jedit.search.HyperSearchOperationNode.getSearchString()| 3
+2688862| 2318| org.gjt.sp.jedit.search.HyperSearchOperationNode.getSearchMatcher()| 6
+2688862| 2321| org.gjt.sp.jedit.search.HyperSearchRequest.run()| 34
+2688862| 2382| org.gjt.sp.jedit.search.HyperSearchResults.RedoSearchAction.actionPerformed(ActionEvent)| 111
+[3, 6, 34, 111]
+3
+2696564| 1573| org.gjt.sp.jedit.EditPane.EditPane(View,Buffer,BufferSet.Scope)| 1761
+2696564| 1575| org.gjt.sp.jedit.EditPane.propertiesChanged()| 973
+2696564| 2135| org.gjt.sp.jedit.options.GutterOptionPane._init()| 6
+2696564| 2136| org.gjt.sp.jedit.options.GutterOptionPane._save()| 28
+2696564| 2139| org.gjt.sp.jedit.options.GutterOptionPane.isGutterEnabled()| 533
+2696564| 2082| org.gjt.sp.jedit.textarea.Gutter.Gutter(TextArea)| 1503
+2696564| 2091| org.gjt.sp.jedit.textarea.Gutter.setBorder(Border)| 2129
+2696564| 2098| org.gjt.sp.jedit.textarea.Gutter.setFont(Font)| 649
+2696564| 2099| org.gjt.sp.jedit.textarea.Gutter.setGutterEnabled(boolean)| 307
+2696564| 2110| org.gjt.sp.jedit.textarea.Gutter.getPreferredSize()| 5757
+2696564| 2125| org.gjt.sp.jedit.textarea.Gutter.setSelectionPopupHandler(GutterPopupHandler)| 5742
+2696564| 2127| org.gjt.sp.jedit.textarea.Gutter.paintLine(Graphics2D,int,int)| 5708
+2696564| 2130| org.gjt.sp.jedit.textarea.Gutter.MouseHandler.mousePressed(MouseEvent)| 870
+2696564| 2131| org.gjt.sp.jedit.textarea.Gutter.MouseHandler.mouseDragged(MouseEvent)| 1929
+2696564| 2132| org.gjt.sp.jedit.textarea.Gutter.MouseHandler.getFoldEndOffset(int)| 1258
+2696564| 2133| org.gjt.sp.jedit.textarea.Gutter.MouseHandler.mouseReleased(MouseEvent)| 30
+[1761, 973, 6, 28, 533, 1503, 2129, 649, 307, 5757, 5742, 5708, 870, 1929, 1258, 30]
+6
+2744708| 611| org.gjt.sp.jedit.Buffer.checkFileStatus(View)| 524
+2744708| 631| org.gjt.sp.jedit.Buffer.setDirty(boolean)| 856
+[524, 856]
+524
+2759434| 4990| org.gjt.sp.util.StandardUtilities.getIndentString(String)| 4353
+[4353]
+4353
+2762745| 3359| org.gjt.sp.jedit.pluginmgr.ManagePanel.SaveButton.saveState(String,List<Entry>)| 28
+2762745| 2589| org.gjt.sp.util.IOUtilities.closeQuietly(OutputStream)| 6372
+2762745| 2591| org.gjt.sp.util.IOUtilities.closeQuietly(Writer)| 6370
+2762745| 2592| org.gjt.sp.util.IOUtilities.closeQuietly(Closeable)| 6369
+[28, 6372, 6370, 6369]
+28
+2777073| 1573| org.gjt.sp.jedit.EditPane.EditPane(View,Buffer,BufferSet.Scope)| 2101
+2777073| 1575| org.gjt.sp.jedit.EditPane.propertiesChanged()| 815
+2777073| 2135| org.gjt.sp.jedit.options.GutterOptionPane._init()| 356
+2777073| 2136| org.gjt.sp.jedit.options.GutterOptionPane._save()| 534
+2777073| 2141| org.gjt.sp.jedit.options.GutterOptionPane.isSelectionAreaEnabled()| 1345
+2777073| 2082| org.gjt.sp.jedit.textarea.Gutter.Gutter(TextArea)| 313
+2777073| 2091| org.gjt.sp.jedit.textarea.Gutter.setBorder(Border)| 172
+2777073| -1| org.gjt.sp.jedit.textarea.Gutter.setSelectonAreaEnabled(boolean)| inf
+2777073| -1| org.gjt.sp.jedit.textarea.Gutter.getLineCount()| inf
+2777073| 2097| org.gjt.sp.jedit.textarea.Gutter.dispose()| 294
+2777073| 2098| org.gjt.sp.jedit.textarea.Gutter.setFont(Font)| 879
+2777073| 5116| org.gjt.sp.jedit.textarea.TextArea.dispose()| 5845
+[2101, 815, 356, 534, 1345, 313, 172, inf, inf, 294, 879, 5845]
+172
+2781716| 2361| org.gjt.sp.jedit.search.HyperSearchResults.HighlightingTree.convertValueToText(Object,boolean,boolean,boolean,int,boolean)| 6263
+[6263]
+6263
+2814857| 5308| org.gjt.sp.jedit.textarea.TextArea.removeNotify()| 4034
+[4034]
+4034
+2823909| 6028| org.gjt.sp.jedit.View.updateFullScreenProps()| 78
+[78]
+78
+2824045| 6029| org.gjt.sp.jedit.View.toggleFullScreen()| 2649
+[2649]
+2649
+2842444| 2321| org.gjt.sp.jedit.search.HyperSearchRequest.run()| 34
+2842444| 2338| org.gjt.sp.jedit.search.HyperSearchResults.HyperSearchResults(View)| 189
+2842444| 2347| org.gjt.sp.jedit.search.HyperSearchResults.searchStarted()| 222
+2842444| 2350| org.gjt.sp.jedit.search.HyperSearchResults.searchDone(DefaultMutableTreeNode,DefaultMutableTreeNode)| 41
+2842444| 2359| org.gjt.sp.jedit.search.HyperSearchResults.ActionHandler.actionPerformed(ActionEvent)| 1092
+[34, 189, 222, 41, 1092]
+34
+2844750| 2446| org.gjt.sp.jedit.textarea.InputMethodSupport.paintValidLine(Graphics2D,int,int,int,int,int)| 1578
+2844750| 2448| org.gjt.sp.jedit.textarea.InputMethodSupport.getLocationOffset(int,int)| 5611
+2844750| 5475| org.gjt.sp.jedit.textarea.TextAreaPainter.PaintLineBackground.paintValidLine(Graphics2D,int,int,int,int,int)| 313
+2844750| 5480| org.gjt.sp.jedit.textarea.TextAreaPainter.PaintText.paintValidLine(Graphics2D,int,int,int,int,int)| 160
+[1578, 5611, 313, 160]
+160
+2846169| 1930| org.gjt.sp.jedit.buffer.FoldHandler.getPrecedingFoldLevels(JEditBuffer,int,Segment,int)| 209
+2846169| 2418| org.gjt.sp.jedit.buffer.IndentFoldHandler.getLeadingWhitespaceWidth(Segment,int)| 106
+2846169| 2419| org.gjt.sp.jedit.buffer.IndentFoldHandler.getFoldLevel(JEditBuffer,int,Segment)| 50
+2846169| 2420| org.gjt.sp.jedit.buffer.IndentFoldHandler.getPrecedingFoldLevels(JEditBuffer,int,Segment,int)| 403
+2846169| 2943| org.gjt.sp.jedit.buffer.JEditBuffer.getFoldLevel(int)| 7
+[209, 106, 50, 403, 7]
+7
+2882702| 2058| org.gjt.sp.jedit.GUIUtilities.getScreenBounds()| 140
+2882702| 2060| org.gjt.sp.jedit.GUIUtilities.showPopupMenu(JPopupMenu,Component,int,int,boolean)| 1231
+2882702| 6059| org.gjt.sp.jedit.View.isInsideScreen(View,Rectangle)| 2323
+[140, 1231, 2323]
+140
+2887515| 52| org.gjt.sp.jedit.gui.AboutDialog.AboutDialog(View)| 16
+2887515| 56| org.gjt.sp.jedit.gui.AboutDialog.AboutPanel.handleKeyEvent(KeyEvent)| 1525
+2887515| 57| org.gjt.sp.jedit.gui.AboutDialog.AboutPanel.drain()| 3094
+[16, 1525, 3094]
+16
+2887516| 2338| org.gjt.sp.jedit.search.HyperSearchResults.HyperSearchResults(View)| 164
+2887516| 2367| org.gjt.sp.jedit.search.HyperSearchResults.MouseHandler.showPopupMenu(MouseEvent)| 73
+2887516| 2376| org.gjt.sp.jedit.search.HyperSearchResults.CopyToClipboardAction.CopyToClipboardAction()| 35
+2887516| 2377| org.gjt.sp.jedit.search.HyperSearchResults.CopyToClipboardAction.actionPerformed(ActionEvent)| 20
+2887516| 2378| org.gjt.sp.jedit.search.HyperSearchResults.ToStringNodes.processNode(DefaultMutableTreeNode)| 136
+2887516| 2390| org.gjt.sp.jedit.search.HyperSearchResults.ResultTreeTransferHandler.exportToClipboard(JComponent,Clipboard,int)| 10
+[164, 73, 35, 20, 136, 10]
+10
+2896464| 2338| org.gjt.sp.jedit.search.HyperSearchResults.HyperSearchResults(View)| 127
+2896464| 2367| org.gjt.sp.jedit.search.HyperSearchResults.MouseHandler.showPopupMenu(MouseEvent)| 167
+2896464| 2376| org.gjt.sp.jedit.search.HyperSearchResults.CopyToClipboardAction.CopyToClipboardAction()| 928
+2896464| 2377| org.gjt.sp.jedit.search.HyperSearchResults.CopyToClipboardAction.actionPerformed(ActionEvent)| 25
+2896464| 2378| org.gjt.sp.jedit.search.HyperSearchResults.ToStringNodes.processNode(DefaultMutableTreeNode)| 275
+2896464| 2390| org.gjt.sp.jedit.search.HyperSearchResults.ResultTreeTransferHandler.exportToClipboard(JComponent,Clipboard,int)| 3
+[127, 167, 928, 25, 275, 3]
+3
+2911122| 2606| org.gjt.sp.jedit.JARClassLoader.getResource(String)| 24
+[24]
+24
