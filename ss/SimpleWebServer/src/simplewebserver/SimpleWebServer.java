@@ -27,9 +27,22 @@ public class SimpleWebServer {
     		Socket s = dServerSocket.accept();
 
     		/* then process the client's request */
-    		processRequest(s);
+			try {
+				processRequest(s);	
+			} catch (Exception e) {
+				//TODO: handle exception
+				System.out.println(e);
+			}
     	}
     }
+
+	public void storeFile (BufferedReader br, OutputStreamWriter osw, String pathname) throws Exception {
+		
+	}
+
+	public void logEntry (String filename, String record) {
+		
+	}
 
     /* Reads the HTTP request from the client, and responds with the file the user requested or a HTTP error code. */
     public void processRequest(Socket s) throws Exception {
@@ -54,11 +67,13 @@ public class SimpleWebServer {
     	if (command.equals("GET")) {
     		/* if the request is a GET try to respond with the file the user is requesting */
     		System.out.println("Path name: "+pathname);
-    		serveFile (osw,pathname);
+    		serveFile(osw, pathname);
+			osw.close();
     	}
     	else {
     		/* if the request is a NOT a GET, return an error saying this server does not implement the requested command */
     		osw.write ("HTTP/1.0 501 Not Implemented\n\n");
+			osw.close();
     	}
 
     	/* close the connection to the client */
@@ -80,14 +95,15 @@ public class SimpleWebServer {
 
     	/* try to open file specified by pathname */
     	try {
-//    		System.out.println("Path name: "+pathname);
+		//  System.out.println("Path name: "+pathname);
     		fr = new FileReader (pathname);
     		c = fr.read();
     	}
     	catch (Exception e) {
     		/* if the file is not found,return the appropriate HTTP response code  */
     		osw.write ("HTTP/1.0 404 Not Found\n\n");
-    		return;
+    		fr.close();
+			return;
     	}
 
  	/* if the requested file can be successfully opened
