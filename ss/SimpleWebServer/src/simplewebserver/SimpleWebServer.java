@@ -37,17 +37,30 @@ public class SimpleWebServer {
     }
 
 	public void storeFile (BufferedReader br, OutputStreamWriter osw, String pathname) throws Exception {
-		
+		pathname = "inbox/" + pathname.split("/")[pathname.split("/").length-1];
+		BufferedWriter bw = new BufferedWriter(new FileWriter(new File(pathname)));
+		logEntry("access.log", "PUT" + "; " + pathname);
+		String response = br.readLine();
+		if (response!=null) {
+			bw.write(response);
+			while ((response=br.readLine())!=null) {
+				bw.write("\n"+response);
+			}
+		}
+		bw.close();
 	}
 
-	public void logEntry (String filename, String record) {
-		
+	public void logEntry (String filename, String record) throws IOException {
+		BufferedWriter bw = new BufferedWriter(new FileWriter(new File(filename), true));
+		bw.write(record+"\n");
+		bw.close();
 	}
 
     /* Reads the HTTP request from the client, and responds with the file the user requested or a HTTP error code. */
     public void processRequest(Socket s) throws Exception {
     	/* used to read data from the client */
-    	BufferedReader br = new BufferedReader (new InputStreamReader (s.getInputStream()));
+		InputStreamReader isr = new InputStreamReader(s.getInputStream());
+    	BufferedReader br = new BufferedReader (isr);
 
     	/* used to write data to the client */
     	OutputStreamWriter osw =  new OutputStreamWriter (s.getOutputStream());
@@ -66,11 +79,17 @@ public class SimpleWebServer {
 
     	if (command.equals("GET")) {
     		/* if the request is a GET try to respond with the file the user is requesting */
-    		System.out.println("Path name: "+pathname);
+    		System.out.println("Request: " + "GET");
+    		System.out.println("Path name: " + pathname);
     		serveFile(osw, pathname);
 			osw.close();
-    	}
-    	else {
+    	} else if (command.equals("PUT")) {
+			/* if the request is a PUT try to respond with the process status after saving file */
+    		System.out.println("Request: " + "PUT");
+			System.out.println("Path name: " + pathname);
+			storeFile(br, osw, pathname);
+			osw.close();
+		} else {
     		/* if the request is a NOT a GET, return an error saying this server does not implement the requested command */
     		osw.write ("HTTP/1.0 501 Not Implemented\n\n");
 			osw.close();
