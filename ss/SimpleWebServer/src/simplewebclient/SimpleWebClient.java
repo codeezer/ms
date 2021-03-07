@@ -44,11 +44,10 @@ public class SimpleWebClient {
             String userInput;
             if ((userInput = stdIn.readLine()) != null) {
                 out.println(userInput);
-                if (userInput.contains(" ") && userInput.split(" ").length == 2) {
+                if (userInput.contains(" ")) {
                     String reqType = userInput.split(" ")[0];
-                    String pathname = userInput.split(" ")[1];
-                    // String httpVersion = userInput.split(" ")[2];
                     if (reqType.equals("PUT")) {
+                        String pathname = userInput.split(" ")[1];
                         serveFile(osw, pathname);
                         osw.close();
                     } else if (reqType.equals("GET")) {
