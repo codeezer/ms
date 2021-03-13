@@ -37,9 +37,15 @@ public class SimpleWebServer {
     }
 
 	public void storeFile (BufferedReader br, OutputStreamWriter osw, String pathname) throws Exception {
+		// extracts the file name to write it into the inbox/ directory
 		pathname = "inbox/" + pathname.split("/")[pathname.split("/").length-1];
 		BufferedWriter bw = new BufferedWriter(new FileWriter(new File(pathname)));
+		
+		// logs request entry to the access.log file 
 		logEntry("access.log", "PUT" + "; " + pathname);
+		
+		/* read the HTTP request from the client 
+		   and store it on the server */
 		String response = br.readLine();
 		if (response!=null) {
 			bw.write(response);
@@ -103,7 +109,6 @@ public class SimpleWebServer {
     	FileReader fr=null;
     	int c=-1;
     	StringBuffer sb = new StringBuffer();
-
     	/* remove the initial slash at the beginning of the pathname in the request */
     	if (pathname.charAt(0)=='/')
     		pathname=pathname.substring(1);
@@ -124,16 +129,22 @@ public class SimpleWebServer {
     		fr.close();
 			return;
     	}
-
- 	/* if the requested file can be successfully opened
- 	   and read, then return an OK response code and
- 	   send the contents of the file */
-    	osw.write ("HTTP/1.0 200 OK\n\n");
-    	while (c != -1) {
-    		sb.append((char)c);
-    		c = fr.read();
-    	}
-    	osw.write (sb.toString());
+		long maximumAllowedSize = 1024 * 1024; // 1 MB
+		long fsize = new File(pathname).length();
+		if (fsize >= maximumAllowedSize) {
+			logEntry("error_log.txt", "File access tried; " + pathname + ": " + fsize + "." );
+			osw.write ("HTTP/1.0 403 Forbidden\n\n");
+		} else {
+			/* if the requested file can be successfully opened
+ 	   		and read, then return an OK response code and
+ 	   		send the contents of the file */
+				osw.write ("HTTP/1.0 200 OK\n\n");
+				while (c != -1) {
+					sb.append((char)c);
+					c = fr.read();
+				}
+				osw.write (sb.toString());
+		}
     }
 
     /* This method is called when the program is run from the command line. */

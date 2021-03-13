@@ -26,7 +26,8 @@ public class SimpleWebClient {
         }
 
         /*
-         * if the file can be successfully opened and read, then send the contents of the file
+         * if the file can be successfully opened and 
+         * read, then send the contents of the file
          */
         while (c != -1) {
             sb.append((char) c);
@@ -44,13 +45,15 @@ public class SimpleWebClient {
             String userInput;
             if ((userInput = stdIn.readLine()) != null) {
                 out.println(userInput);
+                // checks if the user input contains multiple argument
                 if (userInput.contains(" ")) {
                     String reqType = userInput.split(" ")[0];
+                    // handle put command
                     if (reqType.equals("PUT")) {
                         String pathname = userInput.split(" ")[1];
                         serveFile(osw, pathname);
                         osw.close();
-                    } else if (reqType.equals("GET")) {
+                    } else if (reqType.equals("GET")) { // handle get command
                         String response=in.readLine();
                         if (response!=null) {
                             System.out.println("Response from Server: ");
